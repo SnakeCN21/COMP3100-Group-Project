@@ -18,10 +18,10 @@ public class Client {
  public Client(String address, int port) throws Exception {
   socket = new Socket(address, port);
   System.out.println("Connected");
-
+  // reads input from the socket input stream
   input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-  // sends output to the socket
+  // sends output to the socket output stream
   output = new DataOutputStream(socket.getOutputStream());
 
  }
