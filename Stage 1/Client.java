@@ -29,17 +29,16 @@ public class Client {
 
     // sends output to the socket output stream
     output = new DataOutputStream(socket.getOutputStream());
-
   }
 
-  void message(String msg) throws IOException {
-    byte[] message = msg.getBytes();
-    output.write(message, 0, message.length);
+  void sendMsg(String msg) throws IOException {
+    byte[] sendMsg = msg.getBytes();
+    output.write(sendMsg, 0, sendMsg.length);
     output.flush();
   }
 
-  // receive message from server
-  String getFromServer() throws Exception {
+  // receive sendMsg from server
+  String getResponse() throws Exception {
     StringBuilder msg = new StringBuilder();
     while (msg.length() < 1) {
       while (input.ready()) {
@@ -90,41 +89,41 @@ public class Client {
 
       Client client = new Client("127.0.0.1", 50000);
 
-      client.message(HELO);
-      client.getFromServer();
+      client.sendMsg(HELO);
+      client.getResponse();
 
-      client.message(AUTH + name);
-      client.getFromServer();
+      client.sendMsg(AUTH + name);
+      client.getResponse();
 
-      client.message(REDY);
-      String msg = client.getFromServer();
+      client.sendMsg(REDY);
+      String msg = client.getResponse();
       client.getLargest();
 
       // Requesting for all server information
       while (!msg.equals("NONE")) {
         String[] line = msg.split(" ");
         String request = ("RESC All " + line[4] + " " + line[5] + " " + line[6]);
-        client.message(request);
+        client.sendMsg(request);
 
-        if (client.getFromServer().equals("DATA")) {
+        if (client.getResponse().equals("DATA")) {
           String temp = "";
-          client.message(OK);
+          client.sendMsg(OK);
 
           while (!temp.equals(".")) {
             if (!temp.equals(".")) {
-              client.message(OK);
-              temp = client.getFromServer();
+              client.sendMsg(OK);
+              temp = client.getResponse();
             }
           }
           if (client.largestServer != null) {
-            client.message(SCHD + " " + line[2] + " " + client.largestServer + " " + "0");
+            client.sendMsg(SCHD + " " + line[2] + " " + client.largestServer + " " + "0");
           }
         }
-        client.getFromServer();
-        client.message(REDY);
-        msg = client.getFromServer();
+        client.getResponse();
+        client.sendMsg(REDY);
+        msg = client.getResponse();
       }
-      client.message(QUIT);
+      client.sendMsg(QUIT);
       client.input.close();
       client.output.close();
       client.socket.close();
