@@ -37,7 +37,7 @@ public class Client {
     output.flush();
   }
 
-  // receive sendMsg from server
+  // receive message from server
   String getResponse() throws Exception {
     StringBuilder msg = new StringBuilder();
     while (msg.length() < 1) {
