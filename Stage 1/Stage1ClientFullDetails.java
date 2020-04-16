@@ -9,6 +9,16 @@ public class Stage1ClientFullDetails {
     private BufferedReader input = null;
     private DataOutputStream output = null;
 
+    private static String submitTime = "";
+    private static String jobID = "";
+    private static String estimatedRuntime = "";
+    private static String CPUCores = "";
+    private static String memory = "";
+    private static String disk = "";
+
+    private static ArrayList<HashMap<String, String>> serverList = new ArrayList<HashMap<String, String>>();
+    private static HashMap<String, String> largestServer = new HashMap<String, String>();
+
     private static final String SENT = "SENT";
     private static final String RCVD = "RCVD";
 
@@ -23,6 +33,8 @@ public class Stage1ClientFullDetails {
 
     private static final String OK = "OK";
     private static final String JOBN = "JOBN";
+    private static final String RESF = "RESF";
+    private static final String RESR = "RESR";
     private static final String NONE = "NONE";
     private static final String DOT = ".";
 
@@ -37,7 +49,6 @@ public class Stage1ClientFullDetails {
 
     public Stage1ClientFullDetails(String address, int port) throws Exception {
         socket = new Socket(address, port);
-        //System.out.println("Connected");
 
         // receive buffer from server
         input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -66,6 +77,47 @@ public class Stage1ClientFullDetails {
         return inputMsg;
     }
 
+    private static String resc(Stage1ClientFullDetails client, String inMsg) throws Exception {
+        String msg = "";
+        String[] line = inMsg.split(SPLIT);
+
+        submitTime = line[1];
+        jobID = line[2];
+        estimatedRuntime = line[3];
+        CPUCores = line[4];
+        memory = line[5];
+        disk = line[6];
+
+        client.sendMsg(RESC_ALL + SPLIT + CPUCores + SPLIT + memory + SPLIT + disk);
+        System.out.println(RCVD + SPLIT + RESC_ALL + SPLIT + CPUCores + SPLIT + memory + SPLIT + disk);
+        msg = client.getMsg();
+        System.out.println(SENT + SPLIT + msg);
+
+        serverList = new ArrayList<HashMap<String, String>>();
+
+        while (!msg.equals(DOT)) {
+            client.sendMsg(OK);
+            System.out.println(RCVD + SPLIT + OK);
+            msg = client.getMsg();
+            System.out.println(SENT + SPLIT + msg);
+
+            if (!msg.equals(DOT)) {
+                serverList = assembleServerList(serverList, msg);
+            }
+        }
+
+        return msg;
+    }
+
+    private static String schd(Stage1ClientFullDetails client) throws Exception {
+        client.sendMsg(SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
+        System.out.println(RCVD + SPLIT + SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
+        String msg = client.getMsg();
+        System.out.println(SENT + SPLIT + msg);
+
+        return msg;
+    }
+
     private static ArrayList<HashMap<String, String>> assembleServerList(ArrayList<HashMap<String, String>> serverList, String serverMsg) {
         String[] line = serverMsg.split(SPLIT);
 
@@ -91,20 +143,20 @@ public class Stage1ClientFullDetails {
 
         return serverList;
     }
-    
+
     private static HashMap<String, String> allToLargest(ArrayList<HashMap<String, String>> serverList) {
         HashMap<String, String> largestServer = new HashMap<String, String>();
         largestServer = serverList.get(0);
-        
+
         for (int i=1; i<serverList.size(); i++) {
             int currentLargest = Integer.parseInt(largestServer.get(CPU_CORES));
             int currentCPUCores = Integer.parseInt(serverList.get(i).get(CPU_CORES));
-            
+
             if (currentLargest < currentCPUCores) {
                 largestServer = serverList.get(i);
             }
         }
-        
+
         return largestServer;
     }
 
@@ -115,7 +167,6 @@ public class Stage1ClientFullDetails {
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
-            //Stage1Client client = new Stage1Client("127.0.0.1", 50000);
             Stage1ClientFullDetails client = new Stage1ClientFullDetails(serverName, 50000);
 
             String msg = "";
@@ -132,6 +183,7 @@ public class Stage1ClientFullDetails {
 
             // read system.xml
 
+
             while (msg.equals(OK)) {
                 client.sendMsg(REDY);
                 System.out.println(RCVD + SPLIT + REDY);
@@ -139,39 +191,17 @@ public class Stage1ClientFullDetails {
                 System.out.println(SENT + SPLIT + msg);
 
                 if (msg.startsWith(JOBN)) {
-                    String[] line = msg.split(SPLIT);
+                    msg = resc(client,msg);
 
-                    String submitTime = line[1];
-                    String jobID = line[2];
-                    String estimatedRuntime = line[3];
-                    String CPUCores = line[4];
-                    String memory = line[5];
-                    String disk = line[6];
+                    largestServer = allToLargest(serverList);
 
-                    client.sendMsg(RESC_ALL + SPLIT + CPUCores + SPLIT + memory + SPLIT + disk);
-                    System.out.println(RCVD + SPLIT + RESC_ALL + SPLIT + CPUCores + SPLIT + memory + SPLIT + disk);
-                    msg = client.getMsg();
-                    System.out.println(SENT + SPLIT + msg);
+                    msg = schd(client);
+                } else if (msg.startsWith(RESF)) {
+                    msg = schd(client);
+                } else if (msg.startsWith(RESR)) {
+                    //largestServer = allToLargest(serverList);
 
-                    ArrayList<HashMap<String, String>> serverList = new ArrayList<HashMap<String, String>>();
-
-                    while (!msg.equals(DOT)) {
-                        client.sendMsg(OK);
-                        System.out.println(RCVD + SPLIT + OK);
-                        msg = client.getMsg();
-                        System.out.println(SENT + SPLIT + msg);
-
-                        if (!msg.equals(DOT)) {
-                            serverList = assembleServerList(serverList, msg);
-                        }
-                    }
-
-                    HashMap<String, String> largestServer = allToLargest(serverList);
-
-                    client.sendMsg(SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
-                    System.out.println(RCVD + SPLIT + SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
-                    msg = client.getMsg();
-                    System.out.println(SENT + SPLIT + msg);
+                    msg = schd(client);
                 }
             }
 
