@@ -109,20 +109,11 @@ public class Stage1ClientFullDetails {
         return msg;
     }
 
-    private static String schd(Stage1ClientFullDetails client) throws Exception {
-        client.sendMsg(SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
-        System.out.println(RCVD + SPLIT + SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
-        String msg = client.getMsg();
-        System.out.println(SENT + SPLIT + msg);
-
-        return msg;
-    }
-
     private static ArrayList<HashMap<String, String>> assembleServerList(ArrayList<HashMap<String, String>> serverList, String serverMsg) {
         String[] line = serverMsg.split(SPLIT);
 
         String serverType = line[0];
-        String serverID = line[2];
+        String serverID = line[1];
         String serverState = line[2];
         String availableTime = line[3];
         String CPUCores = line[4];
@@ -144,20 +135,40 @@ public class Stage1ClientFullDetails {
         return serverList;
     }
 
-    private static HashMap<String, String> allToLargest(ArrayList<HashMap<String, String>> serverList) {
+    private static HashMap<String, String> allToLargest(ArrayList<HashMap<String, String>> serverList, XMLReader xml) {
+        String largestServerType = xml.largestServer.get(xml.TYPE);
+        
         HashMap<String, String> largestServer = new HashMap<String, String>();
-        largestServer = serverList.get(0);
+        //largestServer = serverList.get(0);
 
-        for (int i=1; i<serverList.size(); i++) {
-            int currentLargest = Integer.parseInt(largestServer.get(CPU_CORES));
-            int currentCPUCores = Integer.parseInt(serverList.get(i).get(CPU_CORES));
-
-            if (currentLargest < currentCPUCores) {
+        //for (int i=1; i<serverList.size(); i++) {
+        for (int i=0; i<serverList.size(); i++) {
+//            int currentLargest = Integer.parseInt(largestServer.get(CPU_CORES));
+//            int currentCPUCores = Integer.parseInt(serverList.get(i).get(CPU_CORES));
+//
+//            if (currentLargest < currentCPUCores) {
+//                largestServer = serverList.get(i);
+//            }
+            
+            String currentServerType = serverList.get(i).get(SERVER_TYPE);
+            
+            if (largestServerType.equals(currentServerType)) {
                 largestServer = serverList.get(i);
+                
+                break;
             }
         }
 
         return largestServer;
+    }
+
+    private static String schd(Stage1ClientFullDetails client) throws Exception {
+        client.sendMsg(SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
+        System.out.println(RCVD + SPLIT + SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
+        String msg = client.getMsg();
+        System.out.println(SENT + SPLIT + msg);
+
+        return msg;
     }
 
     public static void main(String[] args) {
@@ -182,7 +193,7 @@ public class Stage1ClientFullDetails {
             System.out.println(SENT + SPLIT + msg);
 
             // read system.xml
-
+            XMLReader xml = new XMLReader();
 
             while (msg.equals(OK)) {
                 client.sendMsg(REDY);
@@ -193,7 +204,7 @@ public class Stage1ClientFullDetails {
                 if (msg.startsWith(JOBN)) {
                     msg = resc(client,msg);
 
-                    largestServer = allToLargest(serverList);
+                    largestServer = allToLargest(serverList, xml);
 
                     msg = schd(client);
                 } else if (msg.startsWith(RESF)) {
