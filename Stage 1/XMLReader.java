@@ -79,6 +79,10 @@ public class XMLReader {
 //        System.out.println(xml.largestServer.toString());
     }
 
+    /* Assembly all servers to an ArrayListList<HashMap>.
+    *  Map's key is server's attr,
+    *  Map's value is server's attr value.
+    */
     private static void assemblyServerList(Node server) {
         HashMap<String, String> serverMap = new HashMap<String, String>();
 
@@ -93,6 +97,9 @@ public class XMLReader {
         serverList.add(serverMap);
     }
 
+    /* Find the largest core server
+    *  Return the server's map.
+    */
     private static void assemblyLargestServer() {
         int largestCore = 0;
 
@@ -106,4 +113,5 @@ public class XMLReader {
             }
         }
     }
+    
 }

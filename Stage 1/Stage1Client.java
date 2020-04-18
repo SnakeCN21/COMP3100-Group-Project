@@ -50,13 +50,14 @@ public class Stage1Client {
     public Stage1Client(String address, int port) throws Exception {
         socket = new Socket(address, port);
 
-        // receive buffer from server
+        // Receive buffer from server
         input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-        // sends output to the socket
+        // Sends output to the socket
         output = new DataOutputStream(socket.getOutputStream());
     }
 
+    // Send message to server
     private void sendMsg(String msg) throws IOException {
         byte[] message = msg.getBytes();
         //output.write(message, 0, message.length);
@@ -64,7 +65,7 @@ public class Stage1Client {
         output.flush();
     }
 
-    // receive message from server
+    // Receive message from server
     private String getMsg() throws Exception {
         StringBuilder msg = new StringBuilder();
         while (msg.length() < 1) {
@@ -77,6 +78,7 @@ public class Stage1Client {
         return inputMsg;
     }
 
+    // Resource information request
     private static String resc(Stage1Client client, String inMsg) throws Exception {
         String msg = "";
         String[] line = inMsg.split(SPLIT);
@@ -109,6 +111,10 @@ public class Stage1Client {
         return msg;
     }
 
+    /* Parse every server's message, and put in an ArrayListList<HashMap>
+    *  Map's key is server's attr,
+    *  Map's value is server's attr value.
+    */
     private static ArrayList<HashMap<String, String>> assembleServerList(ArrayList<HashMap<String, String>> serverList, String serverMsg) {
         String[] line = serverMsg.split(SPLIT);
 
@@ -135,10 +141,11 @@ public class Stage1Client {
         return serverList;
     }
 
+    // Find the largest server id's hashmap of largest server type
     private static HashMap<String, String> allToLargest(ArrayList<HashMap<String, String>> serverList, XMLReader xml) {
         String largestServerType = xml.largestServer.get(xml.TYPE);
         
-        HashMap<String, String> largestServer = new HashMap<String, String>();
+        largestServer = new HashMap<String, String>();
         //largestServer = serverList.get(0);
 
         //for (int i=1; i<serverList.size(); i++) {
@@ -162,6 +169,7 @@ public class Stage1Client {
         return largestServer;
     }
 
+    // Scheduling decision
     private static String schd(Stage1Client client) throws Exception {
         client.sendMsg(SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
         //System.out.println(RCVD + SPLIT + SCHD + SPLIT + jobID + SPLIT + largestServer.get(SERVER_TYPE) + SPLIT + largestServer.get(SERVER_ID));
@@ -178,6 +186,7 @@ public class Stage1Client {
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
+            // Connect server
             Stage1Client client = new Stage1Client(serverName, 50000);
 
             String msg = "";
@@ -192,9 +201,10 @@ public class Stage1Client {
             msg = client.getMsg();
             //System.out.println(SENT + SPLIT + msg);
 
-            // read system.xml
+            // Read system.xml
             XMLReader xml = new XMLReader();
-
+            
+            // Schedule job
             while (msg.equals(OK)) {
                 client.sendMsg(REDY);
                 //System.out.println(RCVD + SPLIT + REDY);
@@ -216,6 +226,7 @@ public class Stage1Client {
                 }
             }
 
+            // QUIT
             client.sendMsg(QUIT);
             //System.out.println(RCVD + SPLIT + QUIT);
             msg = client.getMsg();
@@ -228,4 +239,5 @@ public class Stage1Client {
             System.out.println(e);
         }
     }
+    
 }
