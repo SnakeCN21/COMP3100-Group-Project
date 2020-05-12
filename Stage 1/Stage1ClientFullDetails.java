@@ -220,7 +220,7 @@ public class Stage1ClientFullDetails {
                 } else if (msg.startsWith(RESF)) {
                     msg = schd(client);
                 } else if (msg.startsWith(RESR)) {
-                    largestServer = allToLargest(serverList);
+                    largestServer = allToLargest(serverList, xml);
 
                     msg = schd(client);
                 }
