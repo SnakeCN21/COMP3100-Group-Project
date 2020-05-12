@@ -15,6 +15,20 @@ public class Constant {
     public static final String RESC_CAPABLE = "RESC Capable";
     public static final String QUIT = "QUIT";
 
+    public static final String SERVER_INACTIVE = "0";
+    public static final String SERVER_BOOTING = "1";
+    public static final String SERVER_IDLE = "2";
+    public static final String SERVER_ACTIVE = "3";
+    public static final String SERVER_UNAVAILABLE = "4";
+
+    public static final String JOB_SUBMITTED = "0";
+    public static final String JOB_WAITING = "1";
+    public static final String JOB_RUNNING = "2";
+    public static final String JOB_SUSPENDED = "3";
+    public static final String JOB_COMPLETED = "4";
+    public static final String JOB_FAILED = "5";
+    public static final String JOB_KILLED = "6";
+
     public static final String SPLIT = " ";
 
     public static final String OK = "OK";

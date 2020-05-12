@@ -6,7 +6,7 @@ import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Stage2Client {
+public class stage2BFClient {
     private Socket socket = null;
     private BufferedReader input = null;
     private DataOutputStream output = null;
@@ -26,9 +26,9 @@ public class Stage2Client {
 
     private static ArrayList<HashMap<String, String>> serverList = new ArrayList<HashMap<String, String>>();
     private static HashMap<String, ArrayList<HashMap<String, String>>> serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
-    private static HashMap<String, String> largestServer = new HashMap<String, String>();
+    private static HashMap<String, String> schdServer = new HashMap<String, String>();
 
-    public Stage2Client(String address, int port) throws Exception {
+    public stage2BFClient(String address, int port) throws Exception {
         socket = new Socket(address, port);
 
         // receive buffer from server
@@ -58,7 +58,7 @@ public class Stage2Client {
         return inputMsg;
     }
 
-    private static String resc(String inMsg, Stage2Client client, String rescMode) throws Exception {
+    private static String resc(String inMsg, stage2BFClient client, String rescMode) throws Exception {
         String msg = "";
         String[] line = inMsg.split(Constant.SPLIT);
 
@@ -136,6 +136,8 @@ public class Stage2Client {
     }
 
     private static void bestFit() {
+        schdServer = new HashMap<String, String>();
+
         for (int i=0; i<xml.serverList.size(); i++) {
             HashMap<String, String> serverMap = xml.serverList.get(i);
             String currentServerType = serverMap.get(Constant.TYPE);
@@ -143,7 +145,53 @@ public class Stage2Client {
             ArrayList<HashMap<String, String>> typeServerList = serverListByType.get(currentServerType);
 
             for (int j=0; j<typeServerList.size(); j++) {
+                HashMap<String, String> server = typeServerList.get(j);
 
+                String serverType = server.get(Constant.SERVER_TYPE);
+                String serverID = server.get(Constant.SERVER_ID);
+                String serverState = server.get(Constant.SERVER_STATE);
+                int serverAvailableTime = Integer.parseInt(server.get(Constant.AVAILABLE_TIME));
+                int serverCPUCores = Integer.parseInt(server.get(Constant.CPU_CORES));
+                int serverMemory = Integer.parseInt(server.get(Constant.MEMORY));
+                int serverDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
+
+                if (serverState.equals(Constant.SERVER_UNAVAILABLE)) {
+                    continue;
+                } else {
+                    int fitness = serverCPUCores - Integer.parseInt(CPUCores);
+
+                    if (fitness < bestFit || (fitness == bestFit && serverAvailableTime < minAvail)) {
+                        bestFit = fitness;
+                        minAvail = serverAvailableTime;
+
+                        schdServer = server;
+                    }
+                }
+            }
+        }
+
+        if (schdServer.isEmpty()) {
+            for (int i=0; i<serverList.size(); i++) {
+                HashMap<String, String> server = serverList.get(i);
+
+                String serverType = server.get(Constant.SERVER_TYPE);
+                String serverID = server.get(Constant.SERVER_ID);
+                String serverState = server.get(Constant.SERVER_STATE);
+                int serverAvailableTime = Integer.parseInt(server.get(Constant.AVAILABLE_TIME));
+                int serverCPUCores = Integer.parseInt(server.get(Constant.CPU_CORES));
+                int serverMemory = Integer.parseInt(server.get(Constant.MEMORY));
+                int serverDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
+
+                if (serverState.equals(Constant.SERVER_ACTIVE)) {
+                    int fitness = serverCPUCores - Integer.parseInt(CPUCores);
+
+                    if (fitness < bestFit || (fitness == bestFit && serverAvailableTime < minAvail)) {
+                        bestFit = fitness;
+                        minAvail = serverAvailableTime;
+
+                        schdServer = server;
+                    }
+                }
             }
         }
     }
@@ -151,33 +199,33 @@ public class Stage2Client {
     private static HashMap<String, String> allToLargest() {
         String largestServerType = xml.largestServer.get(Constant.TYPE);
 
-        largestServer = new HashMap<String, String>();
-        //largestServer = serverList.get(0);
+        //schdServer = new HashMap<String, String>();
+        //schdServer = serverList.get(0);
 
         //for (int i=1; i<serverList.size(); i++) {
         for (int i=0; i<serverList.size(); i++) {
-//            int currentLargest = Integer.parseInt(largestServer.get(CPU_CORES));
+//            int currentLargest = Integer.parseInt(schdServer.get(CPU_CORES));
 //            int currentCPUCores = Integer.parseInt(serverList.get(i).get(CPU_CORES));
 //
 //            if (currentLargest < currentCPUCores) {
-//                largestServer = serverList.get(i);
+//                schdServer = serverList.get(i);
 //            }
 
             String currentServerType = serverList.get(i).get(Constant.SERVER_TYPE);
 
             if (largestServerType.equals(currentServerType)) {
-                largestServer = serverList.get(i);
+                schdServer = serverList.get(i);
 
                 break;
             }
         }
 
-        return largestServer;
+        return schdServer;
     }
 
-    private static String schd(Stage2Client client) throws Exception {
-        client.sendMsg(Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + largestServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + largestServer.get(Constant.SERVER_ID));
-        System.out.println(Constant.RCVD + Constant.SPLIT + Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + largestServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + largestServer.get(Constant.SERVER_ID));
+    private static String schd(stage2BFClient client) throws Exception {
+        client.sendMsg(Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
+        System.out.println(Constant.RCVD + Constant.SPLIT + Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
         String msg = client.getMsg();
         System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
@@ -191,7 +239,7 @@ public class Stage2Client {
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
-            Stage2Client client = new Stage2Client(serverName, 50000);
+            stage2BFClient client = new stage2BFClient(serverName, 50000);
 
             String msg = "";
 
@@ -208,7 +256,7 @@ public class Stage2Client {
             // read system.xml
             xml = new XMLReader();
 
-            boolean isFirstJob = true;
+            //boolean isFirstJob = true;
 
             while (msg.equals(Constant.OK)) {
                 client.sendMsg(Constant.REDY);
@@ -224,17 +272,17 @@ public class Stage2Client {
 //                        msg = resc(msg, client, RESC_AVAIL);
 //                    }
 
-                    msg = resc(msg, client, Constant.RESC_ALL);
+                    msg = resc(msg, client, Constant.RESC_CAPABLE);
 
                     bestFit();
 
-                    //largestServer = allToLargest();
+                    //schdServer = allToLargest();
 
                     msg = schd(client);
                 } else if (msg.startsWith(Constant.RESF)) {
                     msg = schd(client);
                 } else if (msg.startsWith(Constant.RESR)) {
-                    //largestServer = allToLargest(serverList);
+                    //schdServer = allToLargest(serverList);
 
                     msg = schd(client);
                 }
