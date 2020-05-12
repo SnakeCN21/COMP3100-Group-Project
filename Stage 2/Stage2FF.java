@@ -1,3 +1,6 @@
+// Stage 2 First Fit Algorithm 
+// Student Name : Jiahui Lin
+// Student No : 45141916
 import java.net.*;
 import java.io.*;
 import java.text.DateFormat;
