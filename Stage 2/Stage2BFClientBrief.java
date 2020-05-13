@@ -1,12 +1,10 @@
-package com.company;
-
 import java.net.*;
 import java.io.*;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Stage2BFClient {
+public class Stage2BFClientBrief {
     private Socket socket = null;
     private BufferedReader input = null;
     private DataOutputStream output = null;
@@ -28,7 +26,7 @@ public class Stage2BFClient {
     private static HashMap<String, ArrayList<HashMap<String, String>>> serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
     private static HashMap<String, String> schdServer = new HashMap<String, String>();
 
-    public Stage2BFClient(String address, int port) throws Exception {
+    public Stage2BFClientBrief(String address, int port) throws Exception {
         socket = new Socket(address, port);
 
         // receive buffer from server
@@ -69,22 +67,22 @@ public class Stage2BFClient {
         disk = line[6];
     }
 
-    private static String resc(Stage2BFClient client, String rescMode) throws Exception {
+    private static String resc(Stage2BFClientBrief client, String rescMode) throws Exception {
         String msg = "";
 
         client.sendMsg(rescMode + Constant.SPLIT + CPUCores + Constant.SPLIT + memory + Constant.SPLIT + disk);
-        System.out.println(Constant.RCVD + Constant.SPLIT + rescMode + Constant.SPLIT + CPUCores + Constant.SPLIT + memory + Constant.SPLIT + disk);
+        //System.out.println(Constant.RCVD + Constant.SPLIT + rescMode + Constant.SPLIT + CPUCores + Constant.SPLIT + memory + Constant.SPLIT + disk);
         msg = client.getMsg();
-        System.out.println(Constant.SENT + Constant.SPLIT + msg);
+        //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
         serverList = new ArrayList<HashMap<String, String>>();
         serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
 
         while (!msg.equals(Constant.DOT)) {
             client.sendMsg(Constant.OK);
-            System.out.println(Constant.RCVD + Constant.SPLIT + Constant.OK);
+            //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.OK);
             msg = client.getMsg();
-            System.out.println(Constant.SENT + Constant.SPLIT + msg);
+            //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
             if (!msg.equals(Constant.DOT)) {
                 assembleServerList(msg);
@@ -251,11 +249,11 @@ public class Stage2BFClient {
         return schdServer;
     }
 
-    private static String schd(Stage2BFClient client) throws Exception {
+    private static String schd(Stage2BFClientBrief client) throws Exception {
         client.sendMsg(Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
-        System.out.println(Constant.RCVD + Constant.SPLIT + Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
+        //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
         String msg = client.getMsg();
-        System.out.println(Constant.SENT + Constant.SPLIT + msg);
+        //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
         return msg;
     }
@@ -267,30 +265,30 @@ public class Stage2BFClient {
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
-            Stage2BFClient client = new Stage2BFClient(serverName, 50000);
+            Stage2BFClientBrief client = new Stage2BFClientBrief(serverName, 50000);
 
             String msg = "";
 
             client.sendMsg(Constant.HELO);
-            System.out.println(Constant.RCVD + Constant.SPLIT + Constant.HELO);
+            //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.HELO);
             msg = client.getMsg();
-            System.out.println(Constant.SENT + Constant.SPLIT + msg);
+            //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
             client.sendMsg(Constant.AUTH + Constant.SPLIT + name);
-            System.out.println(Constant.RCVD + Constant.SPLIT + Constant.AUTH + Constant.SPLIT + name);
+            //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.AUTH + Constant.SPLIT + name);
             msg = client.getMsg();
-            System.out.println(Constant.SENT + Constant.SPLIT + msg);
+            //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
             // read system.xml
             xml = new XMLReader();
 
             while (msg.equals(Constant.OK)) {
                 client.sendMsg(Constant.REDY);
-                System.out.println(Constant.RCVD + Constant.SPLIT + Constant.REDY);
+                //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.REDY);
                 msg = client.getMsg();
-                System.out.println(Constant.SENT + Constant.SPLIT + msg);
+                //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
-                if (msg.startsWith(Constant.JOBN)) {
+                if (msg.startsWith(Constant.JOBN)) { 
                     parsingJob(msg);
 
                     msg = resc(client, Constant.RESC_CAPABLE);
@@ -311,9 +309,9 @@ public class Stage2BFClient {
             }
 
             client.sendMsg(Constant.QUIT);
-            System.out.println(Constant.RCVD + Constant.SPLIT + Constant.QUIT);
+            //System.out.println(Constant.RCVD + Constant.SPLIT + Constant.QUIT);
             msg = client.getMsg();
-            System.out.println(Constant.SENT + Constant.SPLIT + msg);
+            //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
             client.input.close();
             client.output.close();
