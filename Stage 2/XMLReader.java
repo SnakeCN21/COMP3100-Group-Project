@@ -58,7 +58,7 @@ public class XMLReader {
             }
 
             //sortServerList();
-            assemblyLargestServer();
+            //assemblyLargestServer();
         } catch (Exception e) {
             e.printStackTrace();
         }
