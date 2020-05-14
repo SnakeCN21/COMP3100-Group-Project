@@ -300,7 +300,6 @@ public class Stage2FF {
                 //System.out.println(SENT + SPLIT + msg);
                 if (msg.startsWith(JOBN)) {
                     String line[] = msg.split(SPLIT);
-		    serverState = line[2];
                     CPUCores = line[4];
 		    memory = line[5];
                     disk = line[6];
