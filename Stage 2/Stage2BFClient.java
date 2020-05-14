@@ -1,5 +1,3 @@
-package com.company;
-
 import java.net.*;
 import java.io.*;
 import java.text.DateFormat;
@@ -31,13 +29,14 @@ public class Stage2BFClient {
     public Stage2BFClient(String address, int port) throws Exception {
         socket = new Socket(address, port);
 
-        // receive buffer from server
+        // Receive buffer from server
         input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-        // sends output to the socket
+        // Sends output to the socket
         output = new DataOutputStream(socket.getOutputStream());
     }
 
+    // Send message to server
     private void sendMsg(String msg) throws IOException {
         byte[] message = msg.getBytes();
         //output.write(message, 0, message.length);
@@ -45,7 +44,7 @@ public class Stage2BFClient {
         output.flush();
     }
 
-    // receive message from server
+    // Receive message from server
     private String getMsg() throws Exception {
         StringBuilder msg = new StringBuilder();
         while (msg.length() < 1) {
@@ -58,6 +57,7 @@ public class Stage2BFClient {
         return inputMsg;
     }
 
+    // Parsing job details from server
     private static void parsingJob(String msg) {
         String[] line = msg.split(Constant.SPLIT);
 
@@ -69,6 +69,7 @@ public class Stage2BFClient {
         disk = line[6];
     }
 
+    // Resource information request
     private static String resc(Stage2BFClient client, String rescMode) throws Exception {
         String msg = "";
 
@@ -96,6 +97,10 @@ public class Stage2BFClient {
         return msg;
     }
 
+    /* Parsing every server's message, and put in an ArrayListList<HashMap>
+     *  Map's key is server's attr,
+     *  Map's value is server's attr value.
+     */
     private static void assembleServerList(String serverMsg) {
         String[] line = serverMsg.split(Constant.SPLIT);
 
@@ -120,6 +125,10 @@ public class Stage2BFClient {
         serverList.add(serverMap);
     }
 
+    /* Reassemble server list by server type, and put in an HashMap<String, ArrayList>
+     *  Map's key is server's type,
+     *  Map's value is server list of this type.
+     */
     private static void assembleServerListByType() {
         for (int i=0; i<serverList.size(); i++) {
             String currentServerType = serverList.get(i).get(Constant.SERVER_TYPE);
@@ -138,9 +147,11 @@ public class Stage2BFClient {
         }
     }
 
+    // Algorithms of Best-Fit
     private static void bestFit() {
         schdServer = new HashMap<String, String>();
 
+        // For each server type i, s i , in the order appear in system.xml
         for (int i=0; i<xml.serverList.size(); i++) {
             HashMap<String, String> serverMap = xml.serverList.get(i);
             String currentServerType = serverMap.get(Constant.TYPE);
@@ -151,6 +162,7 @@ public class Stage2BFClient {
                 continue;
             }
 
+            // For each server j, s i,j of server type s i , from 0 to limit - 1
             for (int j=0; j<typeServerList.size(); j++) {
                 HashMap<String, String> server = typeServerList.get(j);
 
@@ -165,14 +177,18 @@ public class Stage2BFClient {
                 if (serverState.equals(Constant.SERVER_UNAVAILABLE)) {
                     continue;
                 } else {
+                    // Calculate the fitness value fs i,j ,j i
                     int fitness = serverCPUCores - Integer.parseInt(CPUCores);
 
                     if (fitness < 0) {
                         continue;
                     }
 
+                    // If fs i,j ,j i < bestFit or (fs i,j ,j i == bestFit and available time of s i,j <minAvailTime)
                     if (fitness < bestFit || (fitness == bestFit && serverAvailableTime < minAvail)) {
+                        // Set bestFit to fs i,j , j i
                         bestFit = fitness;
+                        // Set minAvail to available time of s i,j
                         minAvail = serverAvailableTime;
 
                         schdServer = server;
@@ -181,6 +197,7 @@ public class Stage2BFClient {
             }
         }
 
+        //If bestFit isn't found, then Return the best-fit Active server based on initial resource capacity
         if (schdServer.isEmpty()) {
             bestFit = Integer.MAX_VALUE;
             minAvail = Integer.MAX_VALUE;
@@ -217,6 +234,10 @@ public class Stage2BFClient {
             }
         }
 
+        /* If best is still not found, because all servers are busy, then,
+         *  Return first server of server list
+         *  First appears in config_simple3.xml job 69
+         */
         if (schdServer.isEmpty()) {
             schdServer = serverList.get(0);
         }
@@ -224,6 +245,7 @@ public class Stage2BFClient {
         //System.out.println("===================\n" + schdServer.toString());
     }
 
+    // Find the largest server id's hashmap of largest server type
     private static HashMap<String, String> allToLargest() {
         String largestServerType = xml.largestServer.get(Constant.TYPE);
 
@@ -251,6 +273,7 @@ public class Stage2BFClient {
         return schdServer;
     }
 
+    // Scheduling decision
     private static String schd(Stage2BFClient client) throws Exception {
         client.sendMsg(Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
         System.out.println(Constant.RCVD + Constant.SPLIT + Constant.SCHD + Constant.SPLIT + jobID + Constant.SPLIT + schdServer.get(Constant.SERVER_TYPE) + Constant.SPLIT + schdServer.get(Constant.SERVER_ID));
@@ -267,6 +290,7 @@ public class Stage2BFClient {
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
+            // Connect server
             Stage2BFClient client = new Stage2BFClient(serverName, 50000);
 
             String msg = "";
@@ -281,9 +305,10 @@ public class Stage2BFClient {
             msg = client.getMsg();
             System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
-            // read system.xml
+            // Read system.xml
             xml = new XMLReader();
 
+            // Schedule job
             while (msg.equals(Constant.OK)) {
                 client.sendMsg(Constant.REDY);
                 System.out.println(Constant.RCVD + Constant.SPLIT + Constant.REDY);
@@ -310,6 +335,7 @@ public class Stage2BFClient {
 //                }
             }
 
+            // QUIT
             client.sendMsg(Constant.QUIT);
             System.out.println(Constant.RCVD + Constant.SPLIT + Constant.QUIT);
             msg = client.getMsg();

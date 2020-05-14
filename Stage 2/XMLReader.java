@@ -1,5 +1,3 @@
-package com.company;
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 
@@ -23,12 +21,12 @@ public class XMLReader {
 
     private static void readXML() {
         try {
-            //creating a constructor of file class and parsing an XML file
+            // Creating a constructor of file class and parsing an XML file
             File file = new File(Constant.FILE);
 
-            //an instance of factory that gives a document builder
+            // An instance of factory that gives a document builder
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            //an instance of builder to parse the specified xml file
+            // An instance of builder to parse the specified xml file
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(file);
             doc.getDocumentElement().normalize();
@@ -88,6 +86,10 @@ public class XMLReader {
         }
     }
 
+    /* Assembly all servers to an ArrayListList<HashMap>.
+     *  Map's key is server's attr,
+     *  Map's value is server's attr value.
+     */
     private static void assemblyServerList(Node server) {
         HashMap<String, String> serverMap = new HashMap<String, String>();
 
@@ -102,6 +104,7 @@ public class XMLReader {
         serverList.add(serverMap);
     }
 
+    // Sort the server list from smallest to largest
     private static void sortServerList() {
         for (int i=0; i <serverList.size(); i++) {
             for (int j=0; j<serverList.size()-i-1; j++) {
@@ -113,6 +116,9 @@ public class XMLReader {
         }
     }
 
+    /* Find the largest core server
+     *  Return the server's map.
+     */
     private static void assemblyLargestServer() {
         int largestCore = 0;
 

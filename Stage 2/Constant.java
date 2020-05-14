@@ -1,5 +1,3 @@
-package com.company;
-
 public class Constant {
     // ----------------------------------- Stage Client START -----------------------------------
     public static final String SENT = "SENT";
