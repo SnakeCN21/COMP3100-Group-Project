@@ -176,7 +176,8 @@ public class Stage2FF {
       	ArrayList < HashMap < String, String >> sortedList = new ArrayList < HashMap < String, String >>();
     	
 	// sort the initial server list
-	initialServerList.sort(Comparator.comparing(m ->Integer.parseInt(m.get(CPU_CORES)),Comparator.nullsLast(Comparator.naturalOrder())));
+	initialServerList.sort(Comparator.comparing(m ->Integer.parseInt(m.get(CPU_CORES)),
+						    Comparator.nullsLast(Comparator.naturalOrder())));
 	
 	// sort the current serverList according to orginial List
 	for(int i = 0; i < initialServerList.size();i++){
