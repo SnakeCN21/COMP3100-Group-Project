@@ -2,7 +2,7 @@
 # to kill multiple runaway processes, use 'pkill runaway_process_name'
 # For the Java implementation, use the following format: ./tests1.sh your_client.class [-n]
 configDir="./configs"
-diffLog="stage1diff.log"
+diffLog="stage2diff.log"
 if [ ! -d $configDir ]; then
 	echo "No $configDir found!"
 	exit
