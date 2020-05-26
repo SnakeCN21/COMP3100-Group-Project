@@ -1,6 +1,5 @@
 import java.net.*;
 import java.io.*;
-import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -150,6 +149,7 @@ public class Stage2BFClient {
     // Algorithms of Best-Fit
     private static void bestFit() {
         schdServer = new HashMap<String, String>();
+        restoreFitnessValue();
 
         // For each server type i, s i , in the order appear in system.xml
         for (int i=0; i<xml.serverList.size(); i++) {
@@ -178,16 +178,18 @@ public class Stage2BFClient {
                     continue;
                 } else {
                     // Calculate the fitness value fs i,j ,j i
-                    int fitness = serverCPUCores - Integer.parseInt(CPUCores);
+                    int fitnessCores = serverCPUCores - Integer.parseInt(CPUCores);
+                    int fitnessMemory = serverMemory - Integer.parseInt(memory);
+                    int fitnessDiskSpace = serverDiskSpace - Integer.parseInt(disk);
 
-                    if (fitness < 0) {
+                    if (fitnessCores<0 || fitnessMemory<0 || fitnessDiskSpace<0) {
                         continue;
                     }
 
                     // If fs i,j ,j i < bestFit or (fs i,j ,j i == bestFit and available time of s i,j <minAvailTime)
-                    if (fitness < bestFit || (fitness == bestFit && serverAvailableTime < minAvail)) {
+                    if (fitnessCores < bestFit || (fitnessCores == bestFit && serverAvailableTime < minAvail)) {
                         // Set bestFit to fs i,j , j i
-                        bestFit = fitness;
+                        bestFit = fitnessCores;
                         // Set minAvail to available time of s i,j
                         minAvail = serverAvailableTime;
 
@@ -199,13 +201,10 @@ public class Stage2BFClient {
 
         //If bestFit isn't found, then Return the best-fit Active server based on initial resource capacity
         if (schdServer.isEmpty()) {
-            bestFit = Integer.MAX_VALUE;
-            minAvail = Integer.MAX_VALUE;
+            restoreFitnessValue();
 
             for (int i=0; i<serverList.size(); i++) {
                 HashMap<String, String> server = serverList.get(i);
-
-                //System.out.println("server = " + server.toString());
 
                 String serverType = server.get(Constant.SERVER_TYPE);
                 String serverID = server.get(Constant.SERVER_ID);
@@ -216,16 +215,16 @@ public class Stage2BFClient {
                 int serverDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
 
                 if (!serverState.equals(Constant.SERVER_UNAVAILABLE)) {
-                    int fitness = serverCPUCores - Integer.parseInt(CPUCores);
+                    int fitnessCores = serverCPUCores - Integer.parseInt(CPUCores);
+                    int fitnessMemory = serverMemory - Integer.parseInt(memory);
+                    int fitnessDiskSpace = serverDiskSpace - Integer.parseInt(disk);
 
-                    //System.out.println("fitness = " + serverCPUCores + " - " + Integer.parseInt(CPUCores));
-
-                    if (fitness < 0) {
+                    if (fitnessCores<0 || fitnessMemory<0 || fitnessDiskSpace<0) {
                         continue;
                     }
 
-                    if (fitness < bestFit || (fitness == bestFit && serverAvailableTime < minAvail)) {
-                        bestFit = fitness;
+                    if (fitnessCores < bestFit || (fitnessCores == bestFit && serverAvailableTime < minAvail)) {
+                        bestFit = fitnessCores;
                         minAvail = serverAvailableTime;
 
                         schdServer = server;
@@ -241,8 +240,11 @@ public class Stage2BFClient {
         if (schdServer.isEmpty()) {
             schdServer = serverList.get(0);
         }
+    }
 
-        //System.out.println("===================\n" + schdServer.toString());
+    private static void restoreFitnessValue() {
+        bestFit = Integer.MAX_VALUE;
+        minAvail = Integer.MAX_VALUE;
     }
 
     // Find the largest server id's hashmap of largest server type
@@ -285,8 +287,6 @@ public class Stage2BFClient {
 
     public static void main(String[] args) {
         try {
-            //System.out.println("System time: " + DateFormat.getInstance().format(System.currentTimeMillis()));
-
             String serverName = InetAddress.getLocalHost().getHostName();
             String name = System.getProperty("user.name");
 
@@ -326,13 +326,6 @@ public class Stage2BFClient {
 
                     msg = schd(client);
                 }
-//                else if (msg.startsWith(Constant.RESF)) {
-//                    msg = schd(client);
-//                } else if (msg.startsWith(Constant.RESR)) {
-//                    //schdServer = allToLargest(serverList);
-//
-//                    msg = schd(client);
-//                }
             }
 
             // QUIT
@@ -348,4 +341,5 @@ public class Stage2BFClient {
             System.out.println(e);
         }
     }
+    
 }
