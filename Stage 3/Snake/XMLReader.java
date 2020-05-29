@@ -74,16 +74,6 @@ public class XMLReader {
 //        }
 //
 //        System.out.println(xml.largestServer.toString());
-
-        HashMap<String, ArrayList> map = new HashMap<String, ArrayList>();
-
-        ArrayList list = map.get("dsd");
-
-        if (list == null || list.isEmpty()) {
-            System.out.println(0);
-        } else {
-            System.out.println(1);
-        }
     }
 
     /* Assembly all servers to an ArrayListList<HashMap>.

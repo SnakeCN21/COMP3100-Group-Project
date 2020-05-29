@@ -19,19 +19,25 @@ public class Stage3ClientBrief {
     private static String memory = "";
     private static String disk = "";
 
-//    private static String serverID = "";
-//    private static int bestFit = Integer.MAX_VALUE;
-//    private static int minAvail = Integer.MAX_VALUE;
-
     private static ArrayList<HashMap<String, String>> serverList = new ArrayList<HashMap<String, String>>();
     private static HashMap<String, ArrayList<HashMap<String, String>>> serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
     private static HashMap<String, String> schdServer = new HashMap<String, String>();
 
     private static HashMap<String, HashMap<String, String>> championServerMap = new HashMap<String, HashMap<String, String>>();
-//    private static HashMap<String, Integer> serverFitnessCores = new HashMap<String, Integer>();
-//    private static HashMap<String, Integer> serverFitnessMemory = new HashMap<String, Integer>();
-//    private static HashMap<String, Integer> serverFitnessDisk = new HashMap<String, Integer>();
-//    private static Double tempServerTotalWeights = 1d;
+
+    private static HashMap<String, Integer> serverFitnessCores = new HashMap<String, Integer>();
+    private static HashMap<String, Integer> serverFitnessMemory = new HashMap<String, Integer>();
+    private static HashMap<String, Integer> serverFitnessDisk = new HashMap<String, Integer>();
+
+    private static ArrayList<HashMap<String, Integer>> serverCoresRank = new ArrayList<HashMap<String, Integer>>();
+    private static ArrayList<HashMap<String, Integer>> serverMemoryRank = new ArrayList<HashMap<String, Integer>>();
+    private static ArrayList<HashMap<String, Integer>> serverDiskRank = new ArrayList<HashMap<String, Integer>>();
+
+    private static ArrayList<HashMap<String, Double>> serverCoresWeight = new ArrayList<HashMap<String, Double>>();
+    private static ArrayList<HashMap<String, Double>> serverMemoryWeight = new ArrayList<HashMap<String, Double>>();
+    private static ArrayList<HashMap<String, Double>> serverDiskWeight = new ArrayList<HashMap<String, Double>>();
+
+    private static ArrayList<HashMap<String, Double>> serverTotalWeight = new ArrayList<HashMap<String, Double>>();
 
     public Stage3ClientBrief(String address, int port) throws Exception {
         socket = new Socket(address, port);
@@ -46,7 +52,7 @@ public class Stage3ClientBrief {
     // Send message to server
     private void sendMsg(String msg) throws IOException {
         byte[] message = msg.getBytes();
-        //output.write(message, 0, message.length);
+
         output.write(message);
         output.flush();
     }
@@ -95,19 +101,9 @@ public class Stage3ClientBrief {
             //System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
             if (!msg.equals(Constant.DOT)) {
-//                if (jobID.equals("619")) {
-//                    System.out.println(msg);
-//                }
-//
-//                if (jobID.equals("620")) {
-//                    return "";
-//                }
-
                 assembleServerList(msg);
             }
         }
-
-        //assembleServerListByType();
 
         return msg;
     }
@@ -140,154 +136,39 @@ public class Stage3ClientBrief {
         serverList.add(serverMap);
     }
 
-    /* Reassemble server list by server type, and put in an HashMap<String, ArrayList>
-     *  Map's key is server's type,
-     *  Map's value is server list of this type.
+    /* Algorithms of Champion
+     *  This algorithm focus on finding the best-fitness server for each job,
+     *  by sequentially looking at different server states.
+     *  This algorithm can adjust the Avg Turnaround Time and Avg Exec Time to improve work efficiency.
      */
-    private static void assembleServerListByType() {
-        for (int i=0; i<serverList.size(); i++) {
-            String currentServerType = serverList.get(i).get(Constant.SERVER_TYPE);
-
-            ArrayList<HashMap<String, String>> savedServerList = serverListByType.get(currentServerType);
-
-            if (savedServerList == null) {
-                ArrayList<HashMap<String, String>> tempServerList = new ArrayList<HashMap<String, String>>();
-                tempServerList.add(serverList.get(i));
-                serverListByType.put(currentServerType, tempServerList);
-            } else {
-                savedServerList.add(serverList.get(i));
-
-                serverListByType.put(currentServerType, savedServerList);
-            }
-        }
-    }
-
-    // Algorithms of Champion
     private static void champion() {
-        //schdServer = new HashMap<String, String>();
-
-        //restoreFitnessValue();
         restoreChampionParameter();
-
-        HashMap<String, Integer> serverFitnessCores = new HashMap<String, Integer>();
-        HashMap<String, Integer> serverFitnessMemory = new HashMap<String, Integer>();
-        HashMap<String, Integer> serverFitnessDisk = new HashMap<String, Integer>();
-
-        // For each server type i, s i , in the order appear in system.xml
-//        for (int i=0; i<xml.serverList.size(); i++) {
-//            HashMap<String, String> serverMap = xml.serverList.get(i);
-//            String currentServerType = serverMap.get(Constant.TYPE);
-//
-//            ArrayList<HashMap<String, String>> typeServerList = serverListByType.get(currentServerType);
-//
-//            if (typeServerList == null) {
-//                continue;
-//            }
-//
-//            // For each server j, s i,j of server type s i , from 0 to limit - 1
-//            for (int j=0; j<typeServerList.size(); j++) {
-//                HashMap<String, String> server = typeServerList.get(j);
-//
-//                String serverType = server.get(Constant.SERVER_TYPE);
-//                String serverID = server.get(Constant.SERVER_ID);
-//                String serverState = server.get(Constant.SERVER_STATE);
-//                int serverAvailableTime = Integer.parseInt(server.get(Constant.AVAILABLE_TIME));
-//                int serverCPUCores = Integer.parseInt(server.get(Constant.CPU_CORES));
-//                int serverMemory = Integer.parseInt(server.get(Constant.MEMORY));
-//                int serverDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
-//
-//                if (serverState.equals(Constant.SERVER_UNAVAILABLE)) {
-//                    continue;
-//                } else {
-//                    // Calculate the fitness value fs i,j ,j i
-//                    int fitnessCores = serverCPUCores - Integer.parseInt(CPUCores);
-//                    int fitnessMemory = serverMemory - Integer.parseInt(memory);
-//                    int fitnessDiskSpace = serverDiskSpace - Integer.parseInt(disk);
-//
-////                    if (jobID.equals("619")) {
-////                        System.out.println(serverType + " # " + serverID);
-////                        System.out.println("fitnessCores = " + fitnessCores);
-////                        System.out.println("fitnessMemory = " + fitnessMemory);
-////                        System.out.println("fitnessDiskSpace = " + fitnessDiskSpace);
-////
-////                        System.out.println("===============");
-////                    }
-////
-////                    if (fitnessCores<0 || fitnessMemory<0 || fitnessDiskSpace<0) {
-////                        System.out.println(serverType + " # " + serverID + " not passed");
-////                        continue;
-////                    } else {
-////                        System.out.println(serverType + " # " + serverID + " passed");
-////                    }
-//
-//                    if (fitnessCores<0 || fitnessMemory<0 || fitnessDiskSpace<0) {
-//                        continue;
-//                    }
-//
-//                    String SID = serverType + serverID;
-//                    championServerMap.put(SID, server);
-//
-//                    serverFitnessCores.put(SID, fitnessCores);
-//                    serverFitnessMemory.put(SID, fitnessMemory);
-//                    serverFitnessDisk.put(SID, fitnessDiskSpace);
-//
-//                    ArrayList<HashMap<String, Integer>> serverCoresRank = sortServerMap(serverFitnessCores);
-//                    ArrayList<HashMap<String, Integer>> serverMemoryRank = sortServerMap(serverFitnessMemory);
-//                    ArrayList<HashMap<String, Integer>> serverDiskRank = sortServerMap(serverFitnessDisk);
-//
-//                    ArrayList<HashMap<String, Double>> serverCoresWeights = weightsCalculation(serverCoresRank);
-//                    ArrayList<HashMap<String, Double>> serverMemoryWeights = weightsCalculation(serverMemoryRank);
-//                    ArrayList<HashMap<String, Double>> serverDiskWeights = weightsCalculation(serverDiskRank);
-//
-//                    ArrayList<HashMap<String, Double>> serverTotalWeights = totalWeightsCalculation(serverCoresWeights, serverMemoryWeights, serverDiskWeights);
-//
-//                    serverTotalWeights = sortServerTotalWeights(serverTotalWeights);
-//
-//                    setChampionServer(serverTotalWeights);
-//                }
-//            }
-//        }
 
         for (int i=0; i<serverList.size(); i++) {
             HashMap<String, String> server = serverList.get(i);
 
-            String serverType = server.get(Constant.SERVER_TYPE);
-            String serverID = server.get(Constant.SERVER_ID);
-            String serverState = server.get(Constant.SERVER_STATE);
-            int serverAvailableTime = Integer.parseInt(server.get(Constant.AVAILABLE_TIME));
-            int serverCPUCores = Integer.parseInt(server.get(Constant.CPU_CORES));
-            int serverMemory = Integer.parseInt(server.get(Constant.MEMORY));
-            int serverDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
+            String currentServerType = server.get(Constant.SERVER_TYPE);
+            String currentServerID = server.get(Constant.SERVER_ID);
+            String currentServerState = server.get(Constant.SERVER_STATE);
+            int currentServerAvailableTime = Integer.parseInt(server.get(Constant.AVAILABLE_TIME));
+            int currentServerCPUCores = Integer.parseInt(server.get(Constant.CPU_CORES));
+            int currentServerMemory = Integer.parseInt(server.get(Constant.MEMORY));
+            int currentServerDiskSpace = Integer.parseInt(server.get(Constant.DISK_SPACE));
 
-            if (serverState.equals(Constant.SERVER_UNAVAILABLE)) {
+            if (currentServerState.equals(Constant.SERVER_UNAVAILABLE)) {
                 continue;
             } else {
-                // Calculate the fitness value fs i,j ,j i
-                int fitnessCores = serverCPUCores - Integer.parseInt(CPUCores);
-                int fitnessMemory = serverMemory - Integer.parseInt(memory);
-                int fitnessDiskSpace = serverDiskSpace - Integer.parseInt(disk);
+                // Calculate the fitness value
+                int fitnessCores = currentServerCPUCores - Integer.parseInt(CPUCores);
+                int fitnessMemory = currentServerMemory - Integer.parseInt(memory);
+                int fitnessDiskSpace = currentServerDiskSpace - Integer.parseInt(disk);
 
-//                    if (jobID.equals("619")) {
-//                        System.out.println(serverType + " # " + serverID);
-//                        System.out.println("fitnessCores = " + fitnessCores);
-//                        System.out.println("fitnessMemory = " + fitnessMemory);
-//                        System.out.println("fitnessDiskSpace = " + fitnessDiskSpace);
-//
-//                        System.out.println("===============");
-//                    }
-//
-//                    if (fitnessCores<0 || fitnessMemory<0 || fitnessDiskSpace<0) {
-//                        System.out.println(serverType + " # " + serverID + " not passed");
-//                        continue;
-//                    } else {
-//                        System.out.println(serverType + " # " + serverID + " passed");
-//                    }
-
+                // If any resource configuration doesn't meet the job requirements, then check the next server.
                 if (fitnessCores < 0 || fitnessMemory < 0 || fitnessDiskSpace < 0) {
                     continue;
                 }
 
-                String SID = serverType + serverID;
+                String SID = currentServerType + currentServerID;
                 championServerMap.put(SID, server);
 
                 serverFitnessCores.put(SID, fitnessCores);
@@ -296,46 +177,59 @@ public class Stage3ClientBrief {
             }
         }
 
+        // If all fitness map doesn't meet the job requirements, then set the default server.
         if (serverFitnessCores.isEmpty() || serverFitnessMemory.isEmpty() || serverFitnessDisk.isEmpty()) {
             schdServer = serverList.get(0);
+
+            return;
         } else {
-            ArrayList<HashMap<String, Integer>> serverCoresRank = sortServerMap(serverFitnessCores);
-            ArrayList<HashMap<String, Integer>> serverMemoryRank = sortServerMap(serverFitnessMemory);
-            ArrayList<HashMap<String, Integer>> serverDiskRank = sortServerMap(serverFitnessDisk);
+            // Sort the fitness values of the 3 resources in ascending order.
+            serverCoresRank = sortServerMap(serverFitnessCores);
+            serverMemoryRank = sortServerMap(serverFitnessMemory);
+            serverDiskRank = sortServerMap(serverFitnessDisk);
 
-            ArrayList<HashMap<String, Double>> serverCoresWeights = weightsCalculation(serverCoresRank);
-            ArrayList<HashMap<String, Double>> serverMemoryWeights = weightsCalculation(serverMemoryRank);
-            ArrayList<HashMap<String, Double>> serverDiskWeights = weightsCalculation(serverDiskRank);
+            // Calculate the respective weights of the 3 resources
+            // Weight = index / list.size ()
+            serverCoresWeight = weightCalculation(serverCoresRank);
+            serverMemoryWeight = weightCalculation(serverMemoryRank);
+            serverDiskWeight = weightCalculation(serverDiskRank);
 
-            ArrayList<HashMap<String, Double>> serverTotalWeights = totalWeightsCalculation(serverCoresWeights, serverMemoryWeights, serverDiskWeights);
+            // Calculate all 3 resources of each server.
+            serverTotalWeight = totalWeightCalculation(serverCoresWeight, serverMemoryWeight, serverDiskWeight);
 
-            serverTotalWeights = sortServerTotalWeights(serverTotalWeights);
+            // Sort all servers in ascending order of total weight.
+            serverTotalWeight = sortServerTotalWeight(serverTotalWeight);
 
-            setChampionServer(serverTotalWeights);
+            // Find the server whose performance is closest to the job requirements according to the total weight.
+            setChampionServer(serverTotalWeight);
         }
-
-        /* If best is still not found, because all servers are busy, then,
-         *  Return first server of server list
-         *  First appears in config_simple3.xml job 69
-         */
-//        if (schdServer.isEmpty()) {
-//            schdServer = serverList.get(0);
-//        }
-
-        //System.out.println("Condition 3, schdServer = " + schdServer.toString());
     }
 
-//    private static void restoreFitnessValue() {
-//        bestFit = Integer.MAX_VALUE;
-//        minAvail = Integer.MAX_VALUE;
-//    }
-
+    // Reset all the variables that will be used in order to find the best-fitness server.
     private static void restoreChampionParameter() {
-        schdServer = new HashMap<String, String>();
         championServerMap = new HashMap<String, HashMap<String, String>>();
-        //tempServerTotalWeights = 1d;
+
+        serverFitnessCores = new HashMap<String, Integer>();
+        serverFitnessMemory = new HashMap<String, Integer>();
+        serverFitnessDisk = new HashMap<String, Integer>();
+
+        serverCoresRank = new ArrayList<HashMap<String, Integer>>();
+        serverMemoryRank = new ArrayList<HashMap<String, Integer>>();
+        serverDiskRank = new ArrayList<HashMap<String, Integer>>();
+
+        serverCoresWeight = new ArrayList<HashMap<String, Double>>();
+        serverMemoryWeight = new ArrayList<HashMap<String, Double>>();
+        serverDiskWeight = new ArrayList<HashMap<String, Double>>();
+
+        serverTotalWeight = new ArrayList<HashMap<String, Double>>();
+
+        schdServer = new HashMap<String, String>();
     }
 
+    /* Sort the servers according to the fitness value of each resource from small to large.
+     *  Map's key is SID, which is ServerType + ServerID
+     *  Map's value is fitness value of specific resource.
+     */
     private static ArrayList<HashMap<String, Integer>> sortServerMap(HashMap<String, Integer> map) {
         ArrayList<HashMap<String,Integer>> result = new ArrayList<HashMap<String,Integer>>();
 
@@ -372,27 +266,29 @@ public class Stage3ClientBrief {
         return result;
     }
 
-    private static ArrayList<HashMap<String, Double>> weightsCalculation(ArrayList<HashMap<String, Integer>> list) {
+    /* Calculate servers respective weights of each resource
+     *  The smaller the weight, the higher the priority,
+     *  which means that the current resources of this server are closer to the job requirements
+     *  Weight = index / list.size ()
+     */
+    private static ArrayList<HashMap<String, Double>> weightCalculation(ArrayList<HashMap<String, Integer>> list) {
         ArrayList<HashMap<String,Double>> result = new ArrayList<HashMap<String,Double>>();
 
         for (int i=0; i<list.size(); i++) {
             HashMap<String, Integer> currentMap = list.get(i);
             String SID = "";
-            //int currentValue = 0;
 
             for (HashMap.Entry<String, Integer> currentEntry : currentMap.entrySet()) {
                 SID = currentEntry.getKey();
-                //currentValue = currentEntry.getValue();
             }
 
-            //BigDecimal b1 = new BigDecimal(Double.toString(currentValue));
             BigDecimal b1 = new BigDecimal(Double.toString(i+1));
             BigDecimal b2 = new BigDecimal(Double.toString(list.size()));
 
-            Double weights = b1.divide(b2, Constant.WEIGHTS_SCALE, RoundingMode.HALF_UP).doubleValue();
+            Double weight = b1.divide(b2, Constant.WEIGHT_SCALE, RoundingMode.HALF_UP).doubleValue();
 
             HashMap<String, Double> tempMap = new HashMap<String, Double>();
-            tempMap.put(SID, weights);
+            tempMap.put(SID, weight);
 
             result.add(tempMap);
         }
@@ -400,21 +296,25 @@ public class Stage3ClientBrief {
         return result;
     }
 
-    private static ArrayList<HashMap<String, Double>> totalWeightsCalculation(ArrayList<HashMap<String, Double>> coresList, ArrayList<HashMap<String, Double>> memoryList, ArrayList<HashMap<String, Double>> diskList) {
+    /* Calculate all 3 resources of each server.
+     *  Add up the weights of the 3 resources of each server,
+     *  to get the total weight of each server.
+     */
+    private static ArrayList<HashMap<String, Double>> totalWeightCalculation(ArrayList<HashMap<String, Double>> coresList, ArrayList<HashMap<String, Double>> memoryList, ArrayList<HashMap<String, Double>> diskList) {
         ArrayList<HashMap<String,Double>> result = new ArrayList<HashMap<String,Double>>();
 
         for (int i=0; i<coresList.size(); i++) {
-            double totalWeights = 0;
+            double totalWeight = 0;
 
             HashMap<String, Double> currentCoresMap = coresList.get(i);
             String SID = "";
-            double currentCoresWeights = 0d;
-            double currentMemoryWeights = 0d;
-            double currentDiskWeights = 0d;
+            double currentCoresWeight = 0d;
+            double currentMemoryWeight = 0d;
+            double currentDiskWeight = 0d;
 
             for (HashMap.Entry<String, Double> currentCoresEntry : currentCoresMap.entrySet()) {
                 SID = currentCoresEntry.getKey();
-                currentCoresWeights = currentCoresEntry.getValue();
+                currentCoresWeight = currentCoresEntry.getValue();
             }
 
             for (int j=0; j<memoryList.size(); j++) {
@@ -423,14 +323,14 @@ public class Stage3ClientBrief {
 
                 for (HashMap.Entry<String, Double> currentMemoryEntry : currentMemoryMap.entrySet()) {
                     memorySID = currentMemoryEntry.getKey();
-                    currentMemoryWeights = currentMemoryEntry.getValue();
+                    currentMemoryWeight = currentMemoryEntry.getValue();
                 }
 
                 if (SID.equals(memorySID)) {
-                    BigDecimal b1 = new BigDecimal(Double.toString(currentCoresWeights));
-                    BigDecimal b2 = new BigDecimal(Double.toString(currentMemoryWeights));
+                    BigDecimal b1 = new BigDecimal(Double.toString(currentCoresWeight));
+                    BigDecimal b2 = new BigDecimal(Double.toString(currentMemoryWeight));
 
-                    totalWeights = b1.add(b2).doubleValue();
+                    totalWeight = b1.add(b2).doubleValue();
 
                     break;
                 }
@@ -442,21 +342,21 @@ public class Stage3ClientBrief {
 
                 for (HashMap.Entry<String, Double> currentDiskEntry : currentDiskMap.entrySet()) {
                     diskSID = currentDiskEntry.getKey();
-                    currentDiskWeights = currentDiskEntry.getValue();
+                    currentDiskWeight = currentDiskEntry.getValue();
                 }
 
                 if (SID.equals(diskSID)) {
-                    BigDecimal b1 = new BigDecimal(Double.toString(totalWeights));
-                    BigDecimal b2 = new BigDecimal(Double.toString(currentDiskWeights));
+                    BigDecimal b1 = new BigDecimal(Double.toString(totalWeight));
+                    BigDecimal b2 = new BigDecimal(Double.toString(currentDiskWeight));
 
-                    totalWeights = b1.add(b2).doubleValue();
+                    totalWeight = b1.add(b2).doubleValue();
 
                     break;
                 }
             }
 
             HashMap<String, Double> tempMap = new HashMap<String, Double>();
-            tempMap.put(SID, totalWeights);
+            tempMap.put(SID, totalWeight);
 
             result.add(tempMap);
         }
@@ -464,7 +364,11 @@ public class Stage3ClientBrief {
         return result;
     }
 
-    private static ArrayList<HashMap<String, Double>> sortServerTotalWeights(ArrayList<HashMap<String, Double>> list) {
+    /* Sort all servers in ascending order of total weight.
+     *  Map's key is SID,
+     *  Map's value is total weight.
+     */
+    private static ArrayList<HashMap<String, Double>> sortServerTotalWeight(ArrayList<HashMap<String, Double>> list) {
         for (int i=0; i<list.size(); i++) {
             for (int j=0; j<list.size()-1; j++) {
                 HashMap<String, Double> currentMap = list.get(i);
@@ -491,50 +395,18 @@ public class Stage3ClientBrief {
         return list;
     }
 
+    /* According to the sorted list, select the server with index = 0,
+     * This server is configured closest to the job requirements.
+     */
     private static void setChampionServer(ArrayList<HashMap<String, Double>> list) {
         HashMap<String, Double> currentMap = list.get(0);
         String SID = "";
-        //Double currentServerTotalWeightsValue = 1d;
 
         for (HashMap.Entry<String, Double> currentEntry : currentMap.entrySet()) {
             SID = currentEntry.getKey();
-            //currentServerTotalWeightsValue = currentEntry.getValue();
         }
-
-//        if (currentServerTotalWeightsValue < tempServerTotalWeights) {
-//            tempServerTotalWeights = currentServerTotalWeightsValue;
-//            schdServer = championServerMap.get(SID);
-//        }
 
         schdServer = championServerMap.get(SID);
-    }
-
-    // Find the largest server id's hashmap of largest server type
-    private static HashMap<String, String> allToLargest() {
-        String largestServerType = xml.largestServer.get(Constant.TYPE);
-
-        //schdServer = new HashMap<String, String>();
-        //schdServer = serverList.get(0);
-
-        //for (int i=1; i<serverList.size(); i++) {
-        for (int i=0; i<serverList.size(); i++) {
-//            int currentLargest = Integer.parseInt(schdServer.get(CPU_CORES));
-//            int currentCPUCores = Integer.parseInt(serverList.get(i).get(CPU_CORES));
-//
-//            if (currentLargest < currentCPUCores) {
-//                schdServer = serverList.get(i);
-//            }
-
-            String currentServerType = serverList.get(i).get(Constant.SERVER_TYPE);
-
-            if (largestServerType.equals(currentServerType)) {
-                schdServer = serverList.get(i);
-
-                break;
-            }
-        }
-
-        return schdServer;
     }
 
     // Scheduling decision

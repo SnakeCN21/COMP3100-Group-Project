@@ -36,7 +36,7 @@ public class Constant {
     public static final String NONE = "NONE";
     public static final String DOT = ".";
 
-    public static final Integer WEIGHTS_SCALE = 4;
+    public static final Integer WEIGHT_SCALE = 4;
     // ----------------------------------- Stage Client END -----------------------------------
 
     // ----------------------------------- XMLReader START -----------------------------------
@@ -48,9 +48,8 @@ public class Constant {
     public static final String MEMORY = "memory";
     public static final String DISK_SPACE = "diskSpace";
 
-    //public static final String FILE = "./system.xml";
-    //private static final String FILE = System.getProperty("user.dir") + "/src/com/company/system.xml";
-    public static final String FILE = "/home/snake/Downloads/Stage 2 final pack v1.3/BF/system.xml";
+    public static final String FILE = "./system.xml";
+    //public static final String FILE = "/home/snake/Downloads/Stage 2 final pack v1.3/BF/system.xml";
     public static final String TAG_NAME = "system";
 
     public static final String TYPE = "type";
