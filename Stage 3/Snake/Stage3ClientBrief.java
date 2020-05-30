@@ -296,8 +296,8 @@ public class Stage3ClientBrief {
         return result;
     }
 
-    /* Calculate all 3 resources of each server.
-     *  Add up the weights of the 3 resources of each server,
+    /* Calculate all 3 fitness value of each server.
+     *  Add up the weights of the 3 fitness value of each server,
      *  to get the total weight of each server.
      */
     private static ArrayList<HashMap<String, Double>> totalWeightCalculation(ArrayList<HashMap<String, Double>> coresList, ArrayList<HashMap<String, Double>> memoryList, ArrayList<HashMap<String, Double>> diskList) {
