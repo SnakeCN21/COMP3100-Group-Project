@@ -1,0 +1,90 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>FF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     130018 job   578 on # 2 of server xlarge COMPLETED
+t:     130878 job   504 on # 0 of server xlarge COMPLETED
+t:     133228 job   555 on # 4 of server xlarge COMPLETED
+t:     133779 job   493 on # 0 of server large COMPLETED
+t:     142272 job   498 on # 2 of server large COMPLETED
+t:     146095 job   551 on # 0 of server small COMPLETED
+t:     159413 job   552 on # 1 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 9 tiny servers used with a utilisation of 20.53 at the cost of $32.09
+# 3 small servers used with a utilisation of 15.25 at the cost of $21.07
+# 5 medium servers used with a utilisation of 35.99 at the cost of $77.63
+# 9 large servers used with a utilisation of 28.12 at the cost of $291.47
+# 13 xlarge servers used with a utilisation of 45.14 at the cost of $913.20
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 159413
+# total #servers used: 39, avg utilisation: 32.06 and total cost: $1335.47
+# avg waiting time: 3, avg exec time: 3005 and avg turnaround time: 3009
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>BF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     130018 job   578 on # 2 of server xlarge COMPLETED
+t:     130878 job   504 on # 1 of server xlarge COMPLETED
+t:     133228 job   555 on # 4 of server xlarge COMPLETED
+t:     133779 job   493 on # 0 of server large COMPLETED
+t:     142272 job   498 on # 1 of server xlarge COMPLETED
+t:     146095 job   551 on # 0 of server large COMPLETED
+t:     159413 job   552 on # 0 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 4 tiny servers used with a utilisation of 17.83 at the cost of $13.41
+# 2 small servers used with a utilisation of 14.91 at the cost of $13.97
+# 4 medium servers used with a utilisation of 27.42 at the cost of $52.03
+# 6 large servers used with a utilisation of 16.80 at the cost of $194.31
+# 13 xlarge servers used with a utilisation of 39.06 at the cost of $919.12
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 159413
+# total #servers used: 29, avg utilisation: 28.25 and total cost: $1192.84
+# avg waiting time: 3, avg exec time: 3054 and avg turnaround time: 3057
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>WF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     130018 job   578 on # 1 of server xlarge COMPLETED
+t:     130878 job   504 on # 2 of server xlarge COMPLETED
+t:     133228 job   555 on # 8 of server xlarge COMPLETED
+t:     133779 job   493 on # 4 of server xlarge COMPLETED
+t:     142272 job   498 on # 3 of server xlarge COMPLETED
+t:     146095 job   551 on # 6 of server xlarge COMPLETED
+t:     159413 job   552 on # 0 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large servers used with a utilisation of 0.00 at the cost of $0.00
+# 20 xlarge servers used with a utilisation of 55.57 at the cost of $1413.98
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 159413
+# total #servers used: 20, avg utilisation: 55.57 and total cost: $1413.98
+# avg waiting time: 35, avg exec time: 3100 and avg turnaround time: 3136
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>My Client<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     130018 job   578 on #16 of server xlarge COMPLETED
+t:     130878 job   504 on #18 of server xlarge COMPLETED
+t:     133228 job   555 on #10 of server xlarge COMPLETED
+t:     133779 job   493 on #13 of server large COMPLETED
+t:     142272 job   498 on #12 of server large COMPLETED
+t:     146095 job   551 on #10 of server small COMPLETED
+t:     159413 job   552 on #19 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 9 tiny servers used with a utilisation of 20.83 at the cost of $28.32
+# 3 small servers used with a utilisation of 15.25 at the cost of $21.07
+# 5 medium servers used with a utilisation of 37.00 at the cost of $77.63
+# 10 large servers used with a utilisation of 25.59 at the cost of $311.88
+# 15 xlarge servers used with a utilisation of 42.82 at the cost of $941.17
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 159413
+# total #servers used: 42, avg utilisation: 31.35 and total cost: $1380.08
+# avg waiting time: 4, avg exec time: 2990 and avg turnaround time: 2994

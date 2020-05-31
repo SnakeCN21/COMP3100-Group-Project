@@ -1,0 +1,215 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>FF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     129733 job   550 on # 0 of server small COMPLETED
+t:     130333 job   445 on # 5 of server tiny COMPLETED
+t:     131899 job   529 on # 2 of server xlarge COMPLETED
+t:     134176 job   427 on # 9 of server xlarge COMPLETED
+t:     144564 job   493 on #14 of server xlarge COMPLETED
+t:     144964 job   526 on # 2 of server medium COMPLETED
+t:     147599 job   501 on #15 of server xlarge COMPLETED
+t:     151178 job   494 on # 4 of server large COMPLETED
+t:     154506 job   542 on # 3 of server medium COMPLETED
+t:     161681 job   536 on # 8 of server tiny COMPLETED
+t:     200790 job   108 on # 7 of server tiny COMPLETED
+t:     251724 job    57 on # 2 of server large COMPLETED
+t:     258679 job   400 on # 0 of server tiny COMPLETED
+t:     281550 job    35 on # 0 of server medium COMPLETED
+t:     424977 job   463 on # 3 of server tiny COMPLETED
+t:     501053 job   392 on # 1 of server large COMPLETED
+t:     593156 job   537 on # 3 of server large COMPLETED
+t:     646659 job   373 on # 3 of server xlarge COMPLETED
+t:     658693 job   337 on # 0 of server xlarge COMPLETED
+t:     659892 job   452 on #11 of server xlarge COMPLETED
+t:     723374 job   510 on # 6 of server tiny COMPLETED
+t:     758211 job   499 on # 5 of server large COMPLETED
+t:     765424 job   486 on # 9 of server tiny COMPLETED
+t:     779679 job   282 on # 4 of server tiny COMPLETED
+t:     780509 job   128 on # 1 of server xlarge COMPLETED
+t:     806726 job   140 on # 2 of server tiny COMPLETED
+t:     919995 job   258 on # 0 of server large COMPLETED
+t:    1007344 job   369 on # 1 of server medium COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 14 tiny servers used with a utilisation of 40.91 at the cost of $282.96
+# 7 small servers used with a utilisation of 1.13 at the cost of $313.59
+# 4 medium servers used with a utilisation of 34.84 at the cost of $408.19
+# 10 large servers used with a utilisation of 29.00 at the cost of $2237.94
+# 16 xlarge servers used with a utilisation of 20.87 at the cost of $7015.50
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1007344
+# total #servers used: 51, avg utilisation: 26.35 and total cost: $10258.19
+# avg waiting time: 5, avg exec time: 19286 and avg turnaround time: 19291
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>BF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     129733 job   550 on # 1 of server xlarge COMPLETED
+t:     130333 job   445 on # 0 of server tiny COMPLETED
+t:     131899 job   529 on # 0 of server xlarge COMPLETED
+t:     134176 job   427 on # 9 of server xlarge COMPLETED
+t:     144564 job   493 on #14 of server xlarge COMPLETED
+t:     144964 job   526 on # 3 of server xlarge COMPLETED
+t:     147599 job   501 on #15 of server xlarge COMPLETED
+t:     151178 job   494 on # 3 of server large COMPLETED
+t:     154506 job   542 on # 7 of server xlarge COMPLETED
+t:     161681 job   536 on # 2 of server tiny COMPLETED
+t:     200790 job   108 on # 1 of server large COMPLETED
+t:     251724 job    57 on # 2 of server large COMPLETED
+t:     258679 job   400 on # 0 of server medium COMPLETED
+t:     281550 job    35 on # 0 of server medium COMPLETED
+t:     424977 job   463 on # 2 of server large COMPLETED
+t:     501053 job   392 on # 6 of server xlarge COMPLETED
+t:     593156 job   537 on # 1 of server large COMPLETED
+t:     646659 job   373 on # 3 of server xlarge COMPLETED
+t:     658693 job   337 on # 1 of server xlarge COMPLETED
+t:     659892 job   452 on #11 of server xlarge COMPLETED
+t:     723374 job   510 on #14 of server xlarge COMPLETED
+t:     758211 job   499 on # 2 of server xlarge COMPLETED
+t:     765424 job   486 on # 4 of server tiny COMPLETED
+t:     779679 job   282 on # 1 of server tiny COMPLETED
+t:     780509 job   128 on # 2 of server xlarge COMPLETED
+t:     806726 job   140 on # 1 of server xlarge COMPLETED
+t:     919995 job   258 on # 0 of server large COMPLETED
+t:    1007344 job   369 on # 1 of server medium COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 8 tiny servers used with a utilisation of 33.32 at the cost of $155.12
+# 6 small servers used with a utilisation of 0.05 at the cost of $259.78
+# 3 medium servers used with a utilisation of 43.39 at the cost of $298.23
+# 9 large servers used with a utilisation of 20.86 at the cost of $2014.15
+# 16 xlarge servers used with a utilisation of 26.50 at the cost of $7015.50
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1007344
+# total #servers used: 42, avg utilisation: 24.02 and total cost: $9742.78
+# avg waiting time: 4, avg exec time: 19578 and avg turnaround time: 19583
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>WF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     129733 job   550 on #19 of server xlarge COMPLETED
+t:     130333 job   445 on # 8 of server xlarge COMPLETED
+t:     131899 job   529 on #11 of server xlarge COMPLETED
+t:     134176 job   427 on # 7 of server xlarge COMPLETED
+t:     144964 job   526 on # 2 of server xlarge COMPLETED
+t:     147539 job   501 on #17 of server xlarge COMPLETED
+t:     151178 job   494 on #16 of server xlarge COMPLETED
+t:     154506 job   542 on # 8 of server xlarge COMPLETED
+t:     161681 job   536 on #14 of server xlarge COMPLETED
+t:     162982 job   194 on # 0 of server xlarge COMPLETED
+t:     162982 job   195 on # 0 of server xlarge RUNNING
+t:     183090 job   195 on # 0 of server xlarge COMPLETED
+t:     183090 job   196 on # 0 of server xlarge RUNNING
+t:     183090 job   197 on # 0 of server xlarge RUNNING
+t:     183090 job   198 on # 0 of server xlarge RUNNING
+t:     183148 job   197 on # 0 of server xlarge COMPLETED
+t:     183643 job   196 on # 0 of server xlarge COMPLETED
+t:     183643 job   199 on # 0 of server xlarge RUNNING
+t:     183772 job   199 on # 0 of server xlarge COMPLETED
+t:     183772 job   226 on # 0 of server xlarge RUNNING
+t:     183925 job   226 on # 0 of server xlarge COMPLETED
+t:     200790 job   108 on #16 of server xlarge COMPLETED
+t:     251724 job    57 on #10 of server xlarge COMPLETED
+t:     258679 job   400 on #13 of server xlarge COMPLETED
+t:     281550 job    35 on # 5 of server xlarge COMPLETED
+t:     285494 job   198 on # 0 of server xlarge COMPLETED
+t:     285494 job   233 on # 0 of server xlarge RUNNING
+t:     285494 job   235 on # 0 of server xlarge RUNNING
+t:     285494 job   240 on # 0 of server xlarge RUNNING
+t:     285494 job   243 on # 0 of server xlarge RUNNING
+t:     285494 job   244 on # 0 of server xlarge RUNNING
+t:     285494 job   245 on # 0 of server xlarge RUNNING
+t:     285494 job   246 on # 0 of server xlarge RUNNING
+t:     285494 job   247 on # 0 of server xlarge RUNNING
+t:     285506 job   240 on # 0 of server xlarge COMPLETED
+t:     285506 job   248 on # 0 of server xlarge RUNNING
+t:     285508 job   245 on # 0 of server xlarge COMPLETED
+t:     285519 job   246 on # 0 of server xlarge COMPLETED
+t:     285519 job   249 on # 0 of server xlarge RUNNING
+t:     285549 job   244 on # 0 of server xlarge COMPLETED
+t:     285549 job   250 on # 0 of server xlarge RUNNING
+t:     285570 job   250 on # 0 of server xlarge COMPLETED
+t:     285570 job   264 on # 0 of server xlarge RUNNING
+t:     285576 job   249 on # 0 of server xlarge COMPLETED
+t:     285616 job   235 on # 0 of server xlarge COMPLETED
+t:     286024 job   247 on # 0 of server xlarge COMPLETED
+t:     286135 job   243 on # 0 of server xlarge COMPLETED
+t:     286252 job   248 on # 0 of server xlarge COMPLETED
+t:     286391 job   264 on # 0 of server xlarge COMPLETED
+t:     288983 job   233 on # 0 of server xlarge COMPLETED
+t:     288983 job   469 on # 0 of server xlarge RUNNING
+t:     307900 job   469 on # 0 of server xlarge COMPLETED
+t:     307900 job   492 on # 0 of server xlarge RUNNING
+t:     324881 job   492 on # 0 of server xlarge COMPLETED
+t:     324881 job   493 on # 0 of server xlarge RUNNING
+t:     360839 job   493 on # 0 of server xlarge COMPLETED
+t:     424977 job   463 on #16 of server xlarge COMPLETED
+t:     501053 job   392 on #15 of server xlarge COMPLETED
+t:     593156 job   537 on # 6 of server xlarge COMPLETED
+t:     646659 job   373 on # 3 of server xlarge COMPLETED
+t:     658693 job   337 on # 4 of server xlarge COMPLETED
+t:     659892 job   452 on #18 of server xlarge COMPLETED
+t:     723374 job   510 on # 6 of server xlarge COMPLETED
+t:     758211 job   499 on #13 of server xlarge COMPLETED
+t:     765424 job   486 on #17 of server xlarge COMPLETED
+t:     779679 job   282 on # 7 of server xlarge COMPLETED
+t:     780509 job   128 on # 1 of server xlarge COMPLETED
+t:     806726 job   140 on #18 of server xlarge COMPLETED
+t:     919995 job   258 on #12 of server xlarge COMPLETED
+t:    1007344 job   369 on # 9 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large servers used with a utilisation of 0.00 at the cost of $0.00
+# 20 xlarge servers used with a utilisation of 56.51 at the cost of $7856.17
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1007344
+# total #servers used: 20, avg utilisation: 56.51 and total cost: $7856.17
+# avg waiting time: 11949, avg exec time: 20333 and avg turnaround time: 32282
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>My Client<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     129733 job   550 on #10 of server small COMPLETED
+t:     130333 job   445 on # 1 of server tiny COMPLETED
+t:     131899 job   529 on # 5 of server xlarge COMPLETED
+t:     134176 job   427 on #16 of server xlarge COMPLETED
+t:     144504 job   493 on # 2 of server xlarge COMPLETED
+t:     144964 job   526 on #16 of server medium COMPLETED
+t:     147599 job   501 on # 1 of server xlarge COMPLETED
+t:     151178 job   494 on # 1 of server large COMPLETED
+t:     154566 job   542 on #17 of server medium COMPLETED
+t:     161681 job   536 on # 8 of server tiny COMPLETED
+t:     200790 job   108 on # 3 of server tiny COMPLETED
+t:     251724 job    57 on #12 of server large COMPLETED
+t:     258679 job   400 on # 4 of server tiny COMPLETED
+t:     281550 job    35 on #14 of server medium COMPLETED
+t:     424977 job   463 on # 7 of server tiny COMPLETED
+t:     501053 job   392 on #15 of server large COMPLETED
+t:     593156 job   537 on # 0 of server large COMPLETED
+t:     646659 job   373 on #17 of server xlarge COMPLETED
+t:     658693 job   337 on #18 of server xlarge COMPLETED
+t:     659892 job   452 on # 9 of server xlarge COMPLETED
+t:     723374 job   510 on # 2 of server tiny COMPLETED
+t:     758211 job   499 on #11 of server large COMPLETED
+t:     765424 job   486 on # 9 of server tiny COMPLETED
+t:     779679 job   282 on # 0 of server tiny COMPLETED
+t:     780509 job   128 on #19 of server xlarge COMPLETED
+t:     806726 job   140 on # 6 of server tiny COMPLETED
+t:     919995 job   258 on #13 of server large COMPLETED
+t:    1007344 job   369 on #15 of server medium COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 14 tiny servers used with a utilisation of 35.60 at the cost of $308.90
+# 7 small servers used with a utilisation of 1.13 at the cost of $313.59
+# 5 medium servers used with a utilisation of 27.89 at the cost of $506.13
+# 12 large servers used with a utilisation of 24.17 at the cost of $2685.11
+# 16 xlarge servers used with a utilisation of 20.84 at the cost of $7106.55
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1007344
+# total #servers used: 54, avg utilisation: 23.50 and total cost: $10920.29
+# avg waiting time: 5, avg exec time: 19190 and avg turnaround time: 19195

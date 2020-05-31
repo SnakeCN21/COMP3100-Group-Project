@@ -1,0 +1,656 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>FF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:      35252 job   985 on # 7 of server 2xlarge COMPLETED
+t:      35255 job   984 on # 0 of server xlarge COMPLETED
+t:      35264 job   987 on #11 of server 2xlarge COMPLETED
+t:      35294 job    24 on # 4 of server xlarge COMPLETED
+t:      35294 job   996 on #10 of server xlarge COMPLETED
+t:      35347 job   970 on # 0 of server small COMPLETED
+t:      35552 job   975 on # 2 of server xlarge COMPLETED
+t:      35642 job   999 on # 9 of server 2xlarge COMPLETED
+t:      35648 job   412 on # 0 of server large COMPLETED
+t:      35725 job   993 on # 0 of server medium COMPLETED
+t:      35779 job   997 on # 1 of server large COMPLETED
+t:      37592 job   247 on # 5 of server tiny COMPLETED
+t:      37805 job   849 on # 0 of server tiny COMPLETED
+t:      39257 job   456 on #10 of server 2xlarge COMPLETED
+t:      39528 job   216 on #16 of server xlarge COMPLETED
+t:      40748 job   660 on # 3 of server large COMPLETED
+t:      41269 job    73 on #12 of server 2xlarge COMPLETED
+t:      41631 job   302 on # 7 of server xlarge COMPLETED
+t:      41712 job   541 on # 1 of server small COMPLETED
+t:      42107 job   546 on # 3 of server xlarge COMPLETED
+t:      45522 job   519 on # 1 of server xlarge COMPLETED
+t:      45565 job   635 on #17 of server 2xlarge COMPLETED
+t:      47027 job   680 on #11 of server xlarge COMPLETED
+t:      48778 job   314 on # 0 of server 2xlarge COMPLETED
+t:      48778 job   339 on # 0 of server 2xlarge RUNNING
+t:      48788 job   339 on # 0 of server 2xlarge COMPLETED
+t:      48788 job   341 on # 0 of server 2xlarge RUNNING
+t:      48870 job   341 on # 0 of server 2xlarge COMPLETED
+t:      48870 job   345 on # 0 of server 2xlarge RUNNING
+t:      48923 job   345 on # 0 of server 2xlarge COMPLETED
+t:      48923 job   350 on # 0 of server 2xlarge RUNNING
+t:      49091 job   350 on # 0 of server 2xlarge COMPLETED
+t:      49091 job   362 on # 0 of server 2xlarge RUNNING
+t:      49214 job   362 on # 0 of server 2xlarge COMPLETED
+t:      49214 job   460 on # 0 of server 2xlarge RUNNING
+t:      49366 job   460 on # 0 of server 2xlarge COMPLETED
+t:      49366 job   484 on # 0 of server 2xlarge RUNNING
+t:      49542 job   484 on # 0 of server 2xlarge COMPLETED
+t:      49542 job   495 on # 0 of server 2xlarge RUNNING
+t:      49548 job   495 on # 0 of server 2xlarge COMPLETED
+t:      49548 job   497 on # 0 of server 2xlarge RUNNING
+t:      49572 job   497 on # 0 of server 2xlarge COMPLETED
+t:      49572 job   499 on # 0 of server 2xlarge RUNNING
+t:      49599 job   499 on # 0 of server 2xlarge COMPLETED
+t:      49599 job   641 on # 0 of server 2xlarge RUNNING
+t:      49621 job   641 on # 0 of server 2xlarge COMPLETED
+t:      49621 job   645 on # 0 of server 2xlarge RUNNING
+t:      49707 job   645 on # 0 of server 2xlarge COMPLETED
+t:      49707 job   647 on # 0 of server 2xlarge RUNNING
+t:      49750 job   647 on # 0 of server 2xlarge COMPLETED
+t:      49750 job   648 on # 0 of server 2xlarge RUNNING
+t:      49764 job   648 on # 0 of server 2xlarge COMPLETED
+t:      49764 job   652 on # 0 of server 2xlarge RUNNING
+t:      50072 job   652 on # 0 of server 2xlarge COMPLETED
+t:      50072 job   682 on # 0 of server 2xlarge RUNNING
+t:      50966 job   682 on # 0 of server 2xlarge COMPLETED
+t:      50966 job   683 on # 0 of server 2xlarge RUNNING
+t:      51469 job   683 on # 0 of server 2xlarge COMPLETED
+t:      51469 job   685 on # 0 of server 2xlarge RUNNING
+t:      51470 job   685 on # 0 of server 2xlarge COMPLETED
+t:      51470 job   688 on # 0 of server 2xlarge RUNNING
+t:      51484 job   688 on # 0 of server 2xlarge COMPLETED
+t:      51484 job   691 on # 0 of server 2xlarge RUNNING
+t:      51505 job   691 on # 0 of server 2xlarge COMPLETED
+t:      51505 job   692 on # 0 of server 2xlarge RUNNING
+t:      51543 job   692 on # 0 of server 2xlarge COMPLETED
+t:      51543 job   698 on # 0 of server 2xlarge RUNNING
+t:      51628 job   698 on # 0 of server 2xlarge COMPLETED
+t:      51628 job   784 on # 0 of server 2xlarge RUNNING
+t:      51639 job   784 on # 0 of server 2xlarge COMPLETED
+t:      51639 job   785 on # 0 of server 2xlarge RUNNING
+t:      51668 job   613 on # 9 of server xlarge COMPLETED
+t:      51673 job   785 on # 0 of server 2xlarge COMPLETED
+t:      51673 job   788 on # 0 of server 2xlarge RUNNING
+t:      51698 job   788 on # 0 of server 2xlarge COMPLETED
+t:      51698 job   792 on # 0 of server 2xlarge RUNNING
+t:      51791 job   792 on # 0 of server 2xlarge COMPLETED
+t:      51791 job   794 on # 0 of server 2xlarge RUNNING
+t:      51796 job   794 on # 0 of server 2xlarge COMPLETED
+t:      51796 job   795 on # 0 of server 2xlarge RUNNING
+t:      51920 job   795 on # 0 of server 2xlarge COMPLETED
+t:      51920 job   800 on # 0 of server 2xlarge RUNNING
+t:      52081 job   800 on # 0 of server 2xlarge COMPLETED
+t:      52081 job   801 on # 0 of server 2xlarge RUNNING
+t:      52091 job   801 on # 0 of server 2xlarge COMPLETED
+t:      52091 job   802 on # 0 of server 2xlarge RUNNING
+t:      52167 job   763 on # 2 of server 2xlarge COMPLETED
+t:      52216 job   802 on # 0 of server 2xlarge COMPLETED
+t:      52216 job   804 on # 0 of server 2xlarge RUNNING
+t:      52301 job   804 on # 0 of server 2xlarge COMPLETED
+t:      52301 job   805 on # 0 of server 2xlarge RUNNING
+t:      52327 job   805 on # 0 of server 2xlarge COMPLETED
+t:      52327 job   807 on # 0 of server 2xlarge RUNNING
+t:      52463 job   807 on # 0 of server 2xlarge COMPLETED
+t:      53393 job   787 on # 8 of server xlarge COMPLETED
+t:      54610 job   818 on # 4 of server 2xlarge COMPLETED
+t:      56506 job   770 on # 6 of server 2xlarge COMPLETED
+t:      57666 job   963 on # 5 of server 2xlarge COMPLETED
+t:      65075 job   966 on # 8 of server 2xlarge COMPLETED
+t:      65191 job   959 on # 1 of server 2xlarge COMPLETED
+t:      66603 job   989 on # 6 of server xlarge COMPLETED
+t:      70295 job   934 on # 3 of server 2xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 11 tiny servers used with a utilisation of 28.07 at the cost of $11.16
+# 8 small servers used with a utilisation of 14.88 at the cost of $15.60
+# 20 2xlarge servers used with a utilisation of 45.19 at the cost of $1219.90
+# 7 medium servers used with a utilisation of 6.88 at the cost of $50.56
+# 9 large servers used with a utilisation of 24.62 at the cost of $139.85
+# 20 xlarge servers used with a utilisation of 33.23 at the cost of $620.27
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 70295
+# total #servers used: 75, avg utilisation: 30.21 and total cost: $2057.34
+# avg waiting time: 1415, avg exec time: 1325 and avg turnaround time: 2741
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>BF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:      35252 job   985 on #11 of server 2xlarge COMPLETED
+t:      35255 job   984 on # 2 of server xlarge COMPLETED
+t:      35264 job   987 on #13 of server 2xlarge COMPLETED
+t:      35288 job    24 on #10 of server 2xlarge COMPLETED
+t:      35294 job   996 on # 3 of server xlarge COMPLETED
+t:      35347 job   970 on # 2 of server 2xlarge COMPLETED
+t:      35552 job   975 on #14 of server 2xlarge COMPLETED
+t:      35642 job   999 on #16 of server 2xlarge COMPLETED
+t:      35648 job   412 on # 0 of server large COMPLETED
+t:      35725 job   993 on # 7 of server 2xlarge COMPLETED
+t:      35779 job   997 on # 3 of server 2xlarge COMPLETED
+t:      37592 job   247 on # 3 of server tiny COMPLETED
+t:      37805 job   849 on #19 of server 2xlarge COMPLETED
+t:      39257 job   456 on #10 of server 2xlarge COMPLETED
+t:      39468 job   216 on # 1 of server xlarge COMPLETED
+t:      40748 job   660 on #10 of server 2xlarge COMPLETED
+t:      41269 job    73 on #12 of server 2xlarge COMPLETED
+t:      41631 job   302 on #13 of server 2xlarge COMPLETED
+t:      41712 job   541 on #16 of server 2xlarge COMPLETED
+t:      42107 job   546 on # 0 of server xlarge COMPLETED
+t:      45522 job   519 on #16 of server 2xlarge COMPLETED
+t:      45565 job   635 on #19 of server 2xlarge COMPLETED
+t:      47027 job   680 on # 6 of server xlarge COMPLETED
+t:      51668 job   613 on #11 of server 2xlarge COMPLETED
+t:      52167 job   763 on # 2 of server 2xlarge COMPLETED
+t:      53393 job   787 on # 8 of server 2xlarge COMPLETED
+t:      54610 job   818 on #14 of server 2xlarge COMPLETED
+t:      56506 job   770 on # 4 of server 2xlarge COMPLETED
+t:      57666 job   963 on # 5 of server 2xlarge COMPLETED
+t:      58668 job   314 on # 0 of server 2xlarge COMPLETED
+t:      58668 job   334 on # 0 of server 2xlarge RUNNING
+t:      58826 job   334 on # 0 of server 2xlarge COMPLETED
+t:      58826 job   339 on # 0 of server 2xlarge RUNNING
+t:      58836 job   339 on # 0 of server 2xlarge COMPLETED
+t:      58836 job   341 on # 0 of server 2xlarge RUNNING
+t:      58918 job   341 on # 0 of server 2xlarge COMPLETED
+t:      58918 job   343 on # 0 of server 2xlarge RUNNING
+t:      58941 job   343 on # 0 of server 2xlarge COMPLETED
+t:      58941 job   344 on # 0 of server 2xlarge RUNNING
+t:      58961 job   344 on # 0 of server 2xlarge COMPLETED
+t:      58961 job   352 on # 0 of server 2xlarge RUNNING
+t:      59006 job   352 on # 0 of server 2xlarge COMPLETED
+t:      59006 job   360 on # 0 of server 2xlarge RUNNING
+t:      65075 job   966 on # 7 of server 2xlarge COMPLETED
+t:      65191 job   959 on # 1 of server 2xlarge COMPLETED
+t:      66603 job   989 on # 4 of server 2xlarge COMPLETED
+t:      70295 job   934 on # 3 of server 2xlarge COMPLETED
+t:      88082 job   360 on # 0 of server 2xlarge COMPLETED
+t:      88082 job   362 on # 0 of server 2xlarge RUNNING
+t:      88205 job   362 on # 0 of server 2xlarge COMPLETED
+t:      88205 job   495 on # 0 of server 2xlarge RUNNING
+t:      88211 job   495 on # 0 of server 2xlarge COMPLETED
+t:      88211 job   497 on # 0 of server 2xlarge RUNNING
+t:      88235 job   497 on # 0 of server 2xlarge COMPLETED
+t:      88235 job   499 on # 0 of server 2xlarge RUNNING
+t:      88235 job   557 on # 0 of server 2xlarge RUNNING
+t:      88262 job   499 on # 0 of server 2xlarge COMPLETED
+t:      88262 job   580 on # 0 of server 2xlarge RUNNING
+t:      88271 job   580 on # 0 of server 2xlarge COMPLETED
+t:      88271 job   583 on # 0 of server 2xlarge RUNNING
+t:      88296 job   583 on # 0 of server 2xlarge COMPLETED
+t:      88296 job   585 on # 0 of server 2xlarge RUNNING
+t:      88370 job   557 on # 0 of server 2xlarge COMPLETED
+t:      88465 job   585 on # 0 of server 2xlarge COMPLETED
+t:      88465 job   586 on # 0 of server 2xlarge RUNNING
+t:      88484 job   586 on # 0 of server 2xlarge COMPLETED
+t:      88484 job   638 on # 0 of server 2xlarge RUNNING
+t:      88500 job   638 on # 0 of server 2xlarge COMPLETED
+t:      88500 job   641 on # 0 of server 2xlarge RUNNING
+t:      88522 job   641 on # 0 of server 2xlarge COMPLETED
+t:      88522 job   642 on # 0 of server 2xlarge RUNNING
+t:      88695 job   642 on # 0 of server 2xlarge COMPLETED
+t:      88695 job   645 on # 0 of server 2xlarge RUNNING
+t:      88781 job   645 on # 0 of server 2xlarge COMPLETED
+t:      88781 job   647 on # 0 of server 2xlarge RUNNING
+t:      88824 job   647 on # 0 of server 2xlarge COMPLETED
+t:      88824 job   652 on # 0 of server 2xlarge RUNNING
+t:      89132 job   652 on # 0 of server 2xlarge COMPLETED
+t:      89132 job   663 on # 0 of server 2xlarge RUNNING
+t:      89287 job   663 on # 0 of server 2xlarge COMPLETED
+t:      89287 job   675 on # 0 of server 2xlarge RUNNING
+t:      89331 job   675 on # 0 of server 2xlarge COMPLETED
+t:      89331 job   691 on # 0 of server 2xlarge RUNNING
+t:      89352 job   691 on # 0 of server 2xlarge COMPLETED
+t:      89352 job   698 on # 0 of server 2xlarge RUNNING
+t:      89352 job   720 on # 0 of server 2xlarge RUNNING
+t:      89437 job   698 on # 0 of server 2xlarge COMPLETED
+t:      89437 job   784 on # 0 of server 2xlarge RUNNING
+t:      89448 job   784 on # 0 of server 2xlarge COMPLETED
+t:      89448 job   785 on # 0 of server 2xlarge RUNNING
+t:      89482 job   785 on # 0 of server 2xlarge COMPLETED
+t:      89482 job   788 on # 0 of server 2xlarge RUNNING
+t:      89507 job   788 on # 0 of server 2xlarge COMPLETED
+t:      89507 job   792 on # 0 of server 2xlarge RUNNING
+t:      89529 job   720 on # 0 of server 2xlarge COMPLETED
+t:      89600 job   792 on # 0 of server 2xlarge COMPLETED
+t:      89600 job   794 on # 0 of server 2xlarge RUNNING
+t:      89605 job   794 on # 0 of server 2xlarge COMPLETED
+t:      89605 job   795 on # 0 of server 2xlarge RUNNING
+t:      89729 job   795 on # 0 of server 2xlarge COMPLETED
+t:      89729 job   800 on # 0 of server 2xlarge RUNNING
+t:      89890 job   800 on # 0 of server 2xlarge COMPLETED
+t:      89890 job   801 on # 0 of server 2xlarge RUNNING
+t:      89900 job   801 on # 0 of server 2xlarge COMPLETED
+t:      89900 job   802 on # 0 of server 2xlarge RUNNING
+t:      90025 job   802 on # 0 of server 2xlarge COMPLETED
+t:      90025 job   805 on # 0 of server 2xlarge RUNNING
+t:      90051 job   805 on # 0 of server 2xlarge COMPLETED
+t:      90051 job   807 on # 0 of server 2xlarge RUNNING
+t:      90187 job   807 on # 0 of server 2xlarge COMPLETED
+t:      90187 job   912 on # 0 of server 2xlarge RUNNING
+t:      90187 job   927 on # 0 of server 2xlarge RUNNING
+t:      90187 job   982 on # 0 of server 2xlarge RUNNING
+t:      90190 job   927 on # 0 of server 2xlarge COMPLETED
+t:      90193 job   982 on # 0 of server 2xlarge COMPLETED
+t:      90197 job   912 on # 0 of server 2xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 7 tiny servers used with a utilisation of 21.63 at the cost of $6.07
+# 3 small servers used with a utilisation of 0.48 at the cost of $6.09
+# 20 2xlarge servers used with a utilisation of 31.11 at the cost of $1598.93
+# 2 medium servers used with a utilisation of 0.24 at the cost of $19.95
+# 6 large servers used with a utilisation of 5.78 at the cost of $117.93
+# 15 xlarge servers used with a utilisation of 8.63 at the cost of $591.80
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 90197
+# total #servers used: 53, avg utilisation: 17.73 and total cost: $2340.77
+# avg waiting time: 3194, avg exec time: 1353 and avg turnaround time: 4547
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>WF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:      35252 job   985 on #19 of server 2xlarge COMPLETED
+t:      35255 job   984 on # 4 of server 2xlarge COMPLETED
+t:      35264 job   987 on # 1 of server 2xlarge COMPLETED
+t:      35294 job   996 on #12 of server 2xlarge COMPLETED
+t:      35347 job   970 on #17 of server 2xlarge COMPLETED
+t:      35552 job   975 on #17 of server 2xlarge COMPLETED
+t:      35642 job   999 on #16 of server 2xlarge COMPLETED
+t:      35648 job   412 on #16 of server 2xlarge COMPLETED
+t:      35725 job   993 on #17 of server 2xlarge COMPLETED
+t:      35779 job   997 on # 5 of server 2xlarge COMPLETED
+t:      37532 job   247 on #15 of server 2xlarge COMPLETED
+t:      37805 job   849 on # 2 of server 2xlarge COMPLETED
+t:      39257 job   456 on # 9 of server 2xlarge COMPLETED
+t:      39468 job   216 on #13 of server 2xlarge COMPLETED
+t:      40748 job   660 on # 6 of server 2xlarge COMPLETED
+t:      41269 job    73 on #14 of server 2xlarge COMPLETED
+t:      41631 job   302 on #11 of server 2xlarge COMPLETED
+t:      41712 job   541 on #15 of server 2xlarge COMPLETED
+t:      42107 job   546 on #15 of server 2xlarge COMPLETED
+t:      45522 job   519 on # 5 of server 2xlarge COMPLETED
+t:      47027 job   680 on # 3 of server xlarge COMPLETED
+t:      51668 job   613 on #12 of server 2xlarge COMPLETED
+t:      53393 job   787 on #18 of server 2xlarge COMPLETED
+t:      54610 job   818 on # 6 of server 2xlarge COMPLETED
+t:      56506 job   770 on # 8 of server 2xlarge COMPLETED
+t:      57666 job   963 on # 3 of server 2xlarge COMPLETED
+t:      63378 job   314 on # 0 of server 2xlarge COMPLETED
+t:      63378 job   315 on # 0 of server 2xlarge RUNNING
+t:      64055 job   315 on # 0 of server 2xlarge COMPLETED
+t:      64055 job   321 on # 0 of server 2xlarge RUNNING
+t:      64066 job   321 on # 0 of server 2xlarge COMPLETED
+t:      64066 job   325 on # 0 of server 2xlarge RUNNING
+t:      64399 job   325 on # 0 of server 2xlarge COMPLETED
+t:      64399 job   329 on # 0 of server 2xlarge RUNNING
+t:      64422 job   329 on # 0 of server 2xlarge COMPLETED
+t:      64422 job   330 on # 0 of server 2xlarge RUNNING
+t:      64424 job   330 on # 0 of server 2xlarge COMPLETED
+t:      64424 job   331 on # 0 of server 2xlarge RUNNING
+t:      65075 job   966 on # 2 of server 2xlarge COMPLETED
+t:      65140 job   331 on # 0 of server 2xlarge COMPLETED
+t:      65140 job   334 on # 0 of server 2xlarge RUNNING
+t:      65191 job   959 on #10 of server 2xlarge COMPLETED
+t:      65298 job   334 on # 0 of server 2xlarge COMPLETED
+t:      65298 job   336 on # 0 of server 2xlarge RUNNING
+t:      65327 job   336 on # 0 of server 2xlarge COMPLETED
+t:      65327 job   338 on # 0 of server 2xlarge RUNNING
+t:      65380 job   338 on # 0 of server 2xlarge COMPLETED
+t:      65380 job   339 on # 0 of server 2xlarge RUNNING
+t:      65390 job   339 on # 0 of server 2xlarge COMPLETED
+t:      65390 job   341 on # 0 of server 2xlarge RUNNING
+t:      65472 job   341 on # 0 of server 2xlarge COMPLETED
+t:      65472 job   343 on # 0 of server 2xlarge RUNNING
+t:      65495 job   343 on # 0 of server 2xlarge COMPLETED
+t:      65495 job   344 on # 0 of server 2xlarge RUNNING
+t:      65515 job   344 on # 0 of server 2xlarge COMPLETED
+t:      65515 job   349 on # 0 of server 2xlarge RUNNING
+t:      65551 job   349 on # 0 of server 2xlarge COMPLETED
+t:      65551 job   350 on # 0 of server 2xlarge RUNNING
+t:      65719 job   350 on # 0 of server 2xlarge COMPLETED
+t:      65719 job   351 on # 0 of server 2xlarge RUNNING
+t:      65743 job   351 on # 0 of server 2xlarge COMPLETED
+t:      65743 job   352 on # 0 of server 2xlarge RUNNING
+t:      65788 job   352 on # 0 of server 2xlarge COMPLETED
+t:      65788 job   358 on # 0 of server 2xlarge RUNNING
+t:      65853 job   358 on # 0 of server 2xlarge COMPLETED
+t:      65853 job   360 on # 0 of server 2xlarge RUNNING
+t:      66603 job   989 on #18 of server 2xlarge COMPLETED
+t:      70295 job   934 on # 7 of server 2xlarge COMPLETED
+t:      94929 job   360 on # 0 of server 2xlarge COMPLETED
+t:      94929 job   362 on # 0 of server 2xlarge RUNNING
+t:      95052 job   362 on # 0 of server 2xlarge COMPLETED
+t:      95052 job   371 on # 0 of server 2xlarge RUNNING
+t:      95058 job   371 on # 0 of server 2xlarge COMPLETED
+t:      95058 job   404 on # 0 of server 2xlarge RUNNING
+t:      95083 job   404 on # 0 of server 2xlarge COMPLETED
+t:      95083 job   420 on # 0 of server 2xlarge RUNNING
+t:      95243 job   420 on # 0 of server 2xlarge COMPLETED
+t:      95243 job   423 on # 0 of server 2xlarge RUNNING
+t:      95376 job   423 on # 0 of server 2xlarge COMPLETED
+t:      95376 job   426 on # 0 of server 2xlarge RUNNING
+t:      95382 job   426 on # 0 of server 2xlarge COMPLETED
+t:      95382 job   427 on # 0 of server 2xlarge RUNNING
+t:      95399 job   427 on # 0 of server 2xlarge COMPLETED
+t:      95399 job   431 on # 0 of server 2xlarge RUNNING
+t:      95494 job   431 on # 0 of server 2xlarge COMPLETED
+t:      95494 job   432 on # 0 of server 2xlarge RUNNING
+t:      95628 job   432 on # 0 of server 2xlarge COMPLETED
+t:      95628 job   433 on # 0 of server 2xlarge RUNNING
+t:      95631 job   433 on # 0 of server 2xlarge COMPLETED
+t:      95631 job   434 on # 0 of server 2xlarge RUNNING
+t:      95650 job   434 on # 0 of server 2xlarge COMPLETED
+t:      95650 job   435 on # 0 of server 2xlarge RUNNING
+t:      95657 job   435 on # 0 of server 2xlarge COMPLETED
+t:      95657 job   439 on # 0 of server 2xlarge RUNNING
+t:      95704 job   439 on # 0 of server 2xlarge COMPLETED
+t:      95704 job   441 on # 0 of server 2xlarge RUNNING
+t:     120628 job   441 on # 0 of server 2xlarge COMPLETED
+t:     120628 job   442 on # 0 of server 2xlarge RUNNING
+t:     126870 job   442 on # 0 of server 2xlarge COMPLETED
+t:     126870 job   446 on # 0 of server 2xlarge RUNNING
+t:     126890 job   446 on # 0 of server 2xlarge COMPLETED
+t:     126890 job   447 on # 0 of server 2xlarge RUNNING
+t:     126891 job   447 on # 0 of server 2xlarge COMPLETED
+t:     126891 job   450 on # 0 of server 2xlarge RUNNING
+t:     126895 job   450 on # 0 of server 2xlarge COMPLETED
+t:     126895 job   453 on # 0 of server 2xlarge RUNNING
+t:     126918 job   453 on # 0 of server 2xlarge COMPLETED
+t:     126918 job   454 on # 0 of server 2xlarge RUNNING
+t:     126987 job   454 on # 0 of server 2xlarge COMPLETED
+t:     126987 job   459 on # 0 of server 2xlarge RUNNING
+t:     127587 job   459 on # 0 of server 2xlarge COMPLETED
+t:     127587 job   460 on # 0 of server 2xlarge RUNNING
+t:     127739 job   460 on # 0 of server 2xlarge COMPLETED
+t:     127739 job   469 on # 0 of server 2xlarge RUNNING
+t:     127864 job   469 on # 0 of server 2xlarge COMPLETED
+t:     127864 job   470 on # 0 of server 2xlarge RUNNING
+t:     128266 job   470 on # 0 of server 2xlarge COMPLETED
+t:     128266 job   471 on # 0 of server 2xlarge RUNNING
+t:     128271 job   471 on # 0 of server 2xlarge COMPLETED
+t:     128271 job   475 on # 0 of server 2xlarge RUNNING
+t:     128356 job   475 on # 0 of server 2xlarge COMPLETED
+t:     128356 job   476 on # 0 of server 2xlarge RUNNING
+t:     128720 job   476 on # 0 of server 2xlarge COMPLETED
+t:     128720 job   477 on # 0 of server 2xlarge RUNNING
+t:     128722 job   477 on # 0 of server 2xlarge COMPLETED
+t:     128722 job   479 on # 0 of server 2xlarge RUNNING
+t:     128747 job   479 on # 0 of server 2xlarge COMPLETED
+t:     128747 job   482 on # 0 of server 2xlarge RUNNING
+t:     128753 job   482 on # 0 of server 2xlarge COMPLETED
+t:     128753 job   484 on # 0 of server 2xlarge RUNNING
+t:     128929 job   484 on # 0 of server 2xlarge COMPLETED
+t:     128929 job   485 on # 0 of server 2xlarge RUNNING
+t:     128930 job   485 on # 0 of server 2xlarge COMPLETED
+t:     128930 job   486 on # 0 of server 2xlarge RUNNING
+t:     128934 job   486 on # 0 of server 2xlarge COMPLETED
+t:     128934 job   489 on # 0 of server 2xlarge RUNNING
+t:     128944 job   489 on # 0 of server 2xlarge COMPLETED
+t:     128944 job   492 on # 0 of server 2xlarge RUNNING
+t:     129770 job   492 on # 0 of server 2xlarge COMPLETED
+t:     129770 job   493 on # 0 of server 2xlarge RUNNING
+t:     129798 job   493 on # 0 of server 2xlarge COMPLETED
+t:     129798 job   494 on # 0 of server 2xlarge RUNNING
+t:     129857 job   494 on # 0 of server 2xlarge COMPLETED
+t:     129857 job   497 on # 0 of server 2xlarge RUNNING
+t:     129881 job   497 on # 0 of server 2xlarge COMPLETED
+t:     129881 job   499 on # 0 of server 2xlarge RUNNING
+t:     129908 job   499 on # 0 of server 2xlarge COMPLETED
+t:     129908 job   561 on # 0 of server 2xlarge RUNNING
+t:     130015 job   561 on # 0 of server 2xlarge COMPLETED
+t:     130015 job   569 on # 0 of server 2xlarge RUNNING
+t:     135873 job   569 on # 0 of server 2xlarge COMPLETED
+t:     135873 job   609 on # 0 of server 2xlarge RUNNING
+t:     135880 job   609 on # 0 of server 2xlarge COMPLETED
+t:     135880 job   611 on # 0 of server 2xlarge RUNNING
+t:     135986 job   611 on # 0 of server 2xlarge COMPLETED
+t:     135986 job   612 on # 0 of server 2xlarge RUNNING
+t:     136012 job   612 on # 0 of server 2xlarge COMPLETED
+t:     136012 job   615 on # 0 of server 2xlarge RUNNING
+t:     136014 job   615 on # 0 of server 2xlarge COMPLETED
+t:     136014 job   616 on # 0 of server 2xlarge RUNNING
+t:     136149 job   616 on # 0 of server 2xlarge COMPLETED
+t:     136149 job   618 on # 0 of server 2xlarge RUNNING
+t:     136166 job   618 on # 0 of server 2xlarge COMPLETED
+t:     136166 job   619 on # 0 of server 2xlarge RUNNING
+t:     136168 job   619 on # 0 of server 2xlarge COMPLETED
+t:     136168 job   623 on # 0 of server 2xlarge RUNNING
+t:     136302 job   623 on # 0 of server 2xlarge COMPLETED
+t:     136302 job   624 on # 0 of server 2xlarge RUNNING
+t:     136379 job   624 on # 0 of server 2xlarge COMPLETED
+t:     136379 job   626 on # 0 of server 2xlarge RUNNING
+t:     136463 job   626 on # 0 of server 2xlarge COMPLETED
+t:     136463 job   632 on # 0 of server 2xlarge RUNNING
+t:     136918 job   632 on # 0 of server 2xlarge COMPLETED
+t:     136918 job   634 on # 0 of server 2xlarge RUNNING
+t:     136944 job   634 on # 0 of server 2xlarge COMPLETED
+t:     136944 job   635 on # 0 of server 2xlarge RUNNING
+t:     170955 job   635 on # 0 of server 2xlarge COMPLETED
+t:     170955 job   638 on # 0 of server 2xlarge RUNNING
+t:     170971 job   638 on # 0 of server 2xlarge COMPLETED
+t:     170971 job   641 on # 0 of server 2xlarge RUNNING
+t:     170993 job   641 on # 0 of server 2xlarge COMPLETED
+t:     170993 job   643 on # 0 of server 2xlarge RUNNING
+t:     171122 job   643 on # 0 of server 2xlarge COMPLETED
+t:     171122 job   644 on # 0 of server 2xlarge RUNNING
+t:     171151 job   644 on # 0 of server 2xlarge COMPLETED
+t:     171151 job   645 on # 0 of server 2xlarge RUNNING
+t:     171237 job   645 on # 0 of server 2xlarge COMPLETED
+t:     171237 job   647 on # 0 of server 2xlarge RUNNING
+t:     171280 job   647 on # 0 of server 2xlarge COMPLETED
+t:     171280 job   648 on # 0 of server 2xlarge RUNNING
+t:     171294 job   648 on # 0 of server 2xlarge COMPLETED
+t:     171294 job   652 on # 0 of server 2xlarge RUNNING
+t:     171602 job   652 on # 0 of server 2xlarge COMPLETED
+t:     171602 job   655 on # 0 of server 2xlarge RUNNING
+t:     172048 job   655 on # 0 of server 2xlarge COMPLETED
+t:     172048 job   663 on # 0 of server 2xlarge RUNNING
+t:     172203 job   663 on # 0 of server 2xlarge COMPLETED
+t:     172203 job   664 on # 0 of server 2xlarge RUNNING
+t:     172206 job   664 on # 0 of server 2xlarge COMPLETED
+t:     172206 job   672 on # 0 of server 2xlarge RUNNING
+t:     172217 job   672 on # 0 of server 2xlarge COMPLETED
+t:     172217 job   679 on # 0 of server 2xlarge RUNNING
+t:     172617 job   679 on # 0 of server 2xlarge COMPLETED
+t:     172617 job   683 on # 0 of server 2xlarge RUNNING
+t:     173120 job   683 on # 0 of server 2xlarge COMPLETED
+t:     173120 job   685 on # 0 of server 2xlarge RUNNING
+t:     173121 job   685 on # 0 of server 2xlarge COMPLETED
+t:     173121 job   686 on # 0 of server 2xlarge RUNNING
+t:     173252 job   686 on # 0 of server 2xlarge COMPLETED
+t:     173252 job   688 on # 0 of server 2xlarge RUNNING
+t:     173266 job   688 on # 0 of server 2xlarge COMPLETED
+t:     173266 job   689 on # 0 of server 2xlarge RUNNING
+t:     173279 job   689 on # 0 of server 2xlarge COMPLETED
+t:     173279 job   691 on # 0 of server 2xlarge RUNNING
+t:     173300 job   691 on # 0 of server 2xlarge COMPLETED
+t:     173300 job   692 on # 0 of server 2xlarge RUNNING
+t:     173338 job   692 on # 0 of server 2xlarge COMPLETED
+t:     173338 job   696 on # 0 of server 2xlarge RUNNING
+t:     173906 job   696 on # 0 of server 2xlarge COMPLETED
+t:     173906 job   698 on # 0 of server 2xlarge RUNNING
+t:     173991 job   698 on # 0 of server 2xlarge COMPLETED
+t:     173991 job   752 on # 0 of server 2xlarge RUNNING
+t:     174398 job   752 on # 0 of server 2xlarge COMPLETED
+t:     174398 job   759 on # 0 of server 2xlarge RUNNING
+t:     174409 job   759 on # 0 of server 2xlarge COMPLETED
+t:     174409 job   763 on # 0 of server 2xlarge RUNNING
+t:     212350 job   763 on # 0 of server 2xlarge COMPLETED
+t:     212350 job   764 on # 0 of server 2xlarge RUNNING
+t:     212397 job   764 on # 0 of server 2xlarge COMPLETED
+t:     212397 job   777 on # 0 of server 2xlarge RUNNING
+t:     212705 job   777 on # 0 of server 2xlarge COMPLETED
+t:     212705 job   779 on # 0 of server 2xlarge RUNNING
+t:     213338 job   779 on # 0 of server 2xlarge COMPLETED
+t:     213338 job   783 on # 0 of server 2xlarge RUNNING
+t:     213361 job   783 on # 0 of server 2xlarge COMPLETED
+t:     213361 job   784 on # 0 of server 2xlarge RUNNING
+t:     213372 job   784 on # 0 of server 2xlarge COMPLETED
+t:     213372 job   785 on # 0 of server 2xlarge RUNNING
+t:     213406 job   785 on # 0 of server 2xlarge COMPLETED
+t:     213406 job   788 on # 0 of server 2xlarge RUNNING
+t:     213431 job   788 on # 0 of server 2xlarge COMPLETED
+t:     213431 job   792 on # 0 of server 2xlarge RUNNING
+t:     213524 job   792 on # 0 of server 2xlarge COMPLETED
+t:     213524 job   794 on # 0 of server 2xlarge RUNNING
+t:     213529 job   794 on # 0 of server 2xlarge COMPLETED
+t:     213529 job   795 on # 0 of server 2xlarge RUNNING
+t:     213653 job   795 on # 0 of server 2xlarge COMPLETED
+t:     213653 job   797 on # 0 of server 2xlarge RUNNING
+t:     214209 job   797 on # 0 of server 2xlarge COMPLETED
+t:     214209 job   800 on # 0 of server 2xlarge RUNNING
+t:     214370 job   800 on # 0 of server 2xlarge COMPLETED
+t:     214370 job   801 on # 0 of server 2xlarge RUNNING
+t:     214380 job   801 on # 0 of server 2xlarge COMPLETED
+t:     214380 job   802 on # 0 of server 2xlarge RUNNING
+t:     214505 job   802 on # 0 of server 2xlarge COMPLETED
+t:     214505 job   804 on # 0 of server 2xlarge RUNNING
+t:     214590 job   804 on # 0 of server 2xlarge COMPLETED
+t:     214590 job   805 on # 0 of server 2xlarge RUNNING
+t:     214616 job   805 on # 0 of server 2xlarge COMPLETED
+t:     214616 job   806 on # 0 of server 2xlarge RUNNING
+t:     214686 job   806 on # 0 of server 2xlarge COMPLETED
+t:     214686 job   807 on # 0 of server 2xlarge RUNNING
+t:     214822 job   807 on # 0 of server 2xlarge COMPLETED
+t:     214822 job   976 on # 0 of server 2xlarge RUNNING
+t:     214824 job   976 on # 0 of server 2xlarge COMPLETED
+t:     214824 job   992 on # 0 of server 2xlarge RUNNING
+t:     214834 job   992 on # 0 of server 2xlarge COMPLETED
+t:     214834 job   994 on # 0 of server 2xlarge RUNNING
+t:     214854 job   994 on # 0 of server 2xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 20 2xlarge servers used with a utilisation of 21.32 at the cost of $3815.49
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large servers used with a utilisation of 0.00 at the cost of $0.00
+# 5 xlarge servers used with a utilisation of 4.05 at the cost of $473.90
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 214854
+# total #servers used: 25, avg utilisation: 17.86 and total cost: $4289.39
+# avg waiting time: 16419, avg exec time: 1390 and avg turnaround time: 17809
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>My Client<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:      35252 job   985 on # 2 of server 2xlarge COMPLETED
+t:      35255 job   984 on #19 of server xlarge COMPLETED
+t:      35264 job   987 on # 9 of server 2xlarge COMPLETED
+t:      35294 job    24 on #10 of server xlarge COMPLETED
+t:      35294 job   996 on #13 of server xlarge COMPLETED
+t:      35347 job   970 on #10 of server small COMPLETED
+t:      35552 job   975 on # 1 of server xlarge COMPLETED
+t:      35642 job   999 on #18 of server 2xlarge COMPLETED
+t:      35648 job   412 on #12 of server large COMPLETED
+t:      35725 job   993 on #14 of server medium COMPLETED
+t:      35779 job   997 on #13 of server large COMPLETED
+t:      37592 job   247 on # 1 of server tiny COMPLETED
+t:      37805 job   849 on # 4 of server tiny COMPLETED
+t:      39257 job   456 on #19 of server 2xlarge COMPLETED
+t:      39468 job   216 on #16 of server xlarge COMPLETED
+t:      40748 job   660 on #14 of server large COMPLETED
+t:      41269 job    73 on # 7 of server 2xlarge COMPLETED
+t:      41631 job   302 on # 2 of server xlarge COMPLETED
+t:      41712 job   541 on #11 of server small COMPLETED
+t:      42107 job   546 on #11 of server xlarge COMPLETED
+t:      45522 job   519 on #17 of server xlarge COMPLETED
+t:      45565 job   635 on #12 of server 2xlarge COMPLETED
+t:      47027 job   680 on # 9 of server xlarge COMPLETED
+t:      48542 job   314 on # 0 of server 2xlarge COMPLETED
+t:      48542 job   339 on # 0 of server 2xlarge RUNNING
+t:      48552 job   339 on # 0 of server 2xlarge COMPLETED
+t:      48552 job   341 on # 0 of server 2xlarge RUNNING
+t:      48634 job   341 on # 0 of server 2xlarge COMPLETED
+t:      48634 job   345 on # 0 of server 2xlarge RUNNING
+t:      48687 job   345 on # 0 of server 2xlarge COMPLETED
+t:      48687 job   350 on # 0 of server 2xlarge RUNNING
+t:      48855 job   350 on # 0 of server 2xlarge COMPLETED
+t:      48855 job   362 on # 0 of server 2xlarge RUNNING
+t:      48978 job   362 on # 0 of server 2xlarge COMPLETED
+t:      48978 job   447 on # 0 of server 2xlarge RUNNING
+t:      48979 job   447 on # 0 of server 2xlarge COMPLETED
+t:      48979 job   460 on # 0 of server 2xlarge RUNNING
+t:      49131 job   460 on # 0 of server 2xlarge COMPLETED
+t:      49131 job   493 on # 0 of server 2xlarge RUNNING
+t:      49159 job   493 on # 0 of server 2xlarge COMPLETED
+t:      49159 job   495 on # 0 of server 2xlarge RUNNING
+t:      49165 job   495 on # 0 of server 2xlarge COMPLETED
+t:      49165 job   497 on # 0 of server 2xlarge RUNNING
+t:      49189 job   497 on # 0 of server 2xlarge COMPLETED
+t:      49189 job   499 on # 0 of server 2xlarge RUNNING
+t:      49216 job   499 on # 0 of server 2xlarge COMPLETED
+t:      49216 job   641 on # 0 of server 2xlarge RUNNING
+t:      49238 job   641 on # 0 of server 2xlarge COMPLETED
+t:      49238 job   645 on # 0 of server 2xlarge RUNNING
+t:      49324 job   645 on # 0 of server 2xlarge COMPLETED
+t:      49324 job   647 on # 0 of server 2xlarge RUNNING
+t:      49367 job   647 on # 0 of server 2xlarge COMPLETED
+t:      49367 job   648 on # 0 of server 2xlarge RUNNING
+t:      49381 job   648 on # 0 of server 2xlarge COMPLETED
+t:      49381 job   652 on # 0 of server 2xlarge RUNNING
+t:      49689 job   652 on # 0 of server 2xlarge COMPLETED
+t:      49689 job   682 on # 0 of server 2xlarge RUNNING
+t:      50583 job   682 on # 0 of server 2xlarge COMPLETED
+t:      50583 job   683 on # 0 of server 2xlarge RUNNING
+t:      51086 job   683 on # 0 of server 2xlarge COMPLETED
+t:      51086 job   685 on # 0 of server 2xlarge RUNNING
+t:      51087 job   685 on # 0 of server 2xlarge COMPLETED
+t:      51087 job   688 on # 0 of server 2xlarge RUNNING
+t:      51101 job   688 on # 0 of server 2xlarge COMPLETED
+t:      51101 job   691 on # 0 of server 2xlarge RUNNING
+t:      51122 job   691 on # 0 of server 2xlarge COMPLETED
+t:      51122 job   692 on # 0 of server 2xlarge RUNNING
+t:      51160 job   692 on # 0 of server 2xlarge COMPLETED
+t:      51160 job   698 on # 0 of server 2xlarge RUNNING
+t:      51245 job   698 on # 0 of server 2xlarge COMPLETED
+t:      51245 job   784 on # 0 of server 2xlarge RUNNING
+t:      51256 job   784 on # 0 of server 2xlarge COMPLETED
+t:      51256 job   785 on # 0 of server 2xlarge RUNNING
+t:      51290 job   785 on # 0 of server 2xlarge COMPLETED
+t:      51290 job   788 on # 0 of server 2xlarge RUNNING
+t:      51315 job   788 on # 0 of server 2xlarge COMPLETED
+t:      51315 job   792 on # 0 of server 2xlarge RUNNING
+t:      51408 job   792 on # 0 of server 2xlarge COMPLETED
+t:      51408 job   794 on # 0 of server 2xlarge RUNNING
+t:      51413 job   794 on # 0 of server 2xlarge COMPLETED
+t:      51413 job   795 on # 0 of server 2xlarge RUNNING
+t:      51537 job   795 on # 0 of server 2xlarge COMPLETED
+t:      51537 job   800 on # 0 of server 2xlarge RUNNING
+t:      51668 job   613 on #15 of server xlarge COMPLETED
+t:      51698 job   800 on # 0 of server 2xlarge COMPLETED
+t:      51698 job   801 on # 0 of server 2xlarge RUNNING
+t:      51708 job   801 on # 0 of server 2xlarge COMPLETED
+t:      51708 job   802 on # 0 of server 2xlarge RUNNING
+t:      51833 job   802 on # 0 of server 2xlarge COMPLETED
+t:      51833 job   804 on # 0 of server 2xlarge RUNNING
+t:      51918 job   804 on # 0 of server 2xlarge COMPLETED
+t:      51918 job   805 on # 0 of server 2xlarge RUNNING
+t:      51944 job   805 on # 0 of server 2xlarge COMPLETED
+t:      51944 job   807 on # 0 of server 2xlarge RUNNING
+t:      52080 job   807 on # 0 of server 2xlarge COMPLETED
+t:      52167 job   763 on # 4 of server 2xlarge COMPLETED
+t:      53393 job   787 on #18 of server xlarge COMPLETED
+t:      54610 job   818 on #15 of server 2xlarge COMPLETED
+t:      56506 job   770 on #16 of server 2xlarge COMPLETED
+t:      57666 job   963 on # 1 of server 2xlarge COMPLETED
+t:      65075 job   966 on #17 of server 2xlarge COMPLETED
+t:      65191 job   959 on # 3 of server 2xlarge COMPLETED
+t:      66603 job   989 on # 0 of server xlarge COMPLETED
+t:      70295 job   934 on #14 of server 2xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 11 tiny servers used with a utilisation of 28.78 at the cost of $10.70
+# 9 small servers used with a utilisation of 13.22 at the cost of $17.60
+# 20 2xlarge servers used with a utilisation of 45.21 at the cost of $1156.27
+# 7 medium servers used with a utilisation of 6.90 at the cost of $51.76
+# 11 large servers used with a utilisation of 20.17 at the cost of $170.22
+# 20 xlarge servers used with a utilisation of 33.08 at the cost of $620.24
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 70295
+# total #servers used: 78, avg utilisation: 29.12 and total cost: $2026.79
+# avg waiting time: 1442, avg exec time: 1321 and avg turnaround time: 2764

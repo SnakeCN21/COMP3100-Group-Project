@@ -1,0 +1,1159 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>FF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     194939 job  1743 on # 0 of server new_4xlarge COMPLETED
+t:     194939 job  1802 on # 0 of server new_4xlarge RUNNING
+t:     194941 job  1802 on # 0 of server new_4xlarge COMPLETED
+t:     194941 job  1806 on # 0 of server new_4xlarge RUNNING
+t:     194970 job  1999 on # 1 of server tiny COMPLETED
+t:     195060 job  1806 on # 0 of server new_4xlarge COMPLETED
+t:     195060 job  1817 on # 0 of server new_4xlarge RUNNING
+t:     195892 job  1817 on # 0 of server new_4xlarge COMPLETED
+t:     195892 job  1824 on # 0 of server new_4xlarge RUNNING
+t:     195918 job  1824 on # 0 of server new_4xlarge COMPLETED
+t:     195918 job  1862 on # 0 of server new_4xlarge RUNNING
+t:     196836 job  1961 on # 0 of server medium COMPLETED
+t:     198438 job  1912 on # 1 of server new_medium COMPLETED
+t:     199382 job  1968 on # 1 of server medium COMPLETED
+t:     199756 job  1881 on # 0 of server new_medium COMPLETED
+t:     200242 job  1702 on # 2 of server new_8xlarge COMPLETED
+t:     201277 job  1894 on # 1 of server xlarge COMPLETED
+t:     203689 job  1687 on # 0 of server 2xlarge COMPLETED
+t:     204148 job  1453 on # 0 of server 8xlarge COMPLETED
+t:     204148 job  1460 on # 0 of server 8xlarge RUNNING
+t:     204164 job  1460 on # 0 of server 8xlarge COMPLETED
+t:     204164 job  1461 on # 0 of server 8xlarge RUNNING
+t:     204416 job  1716 on # 1 of server new_8xlarge COMPLETED
+t:     204758 job  1461 on # 0 of server 8xlarge COMPLETED
+t:     204758 job  1464 on # 0 of server 8xlarge RUNNING
+t:     204811 job  1464 on # 0 of server 8xlarge COMPLETED
+t:     204811 job  1468 on # 0 of server 8xlarge RUNNING
+t:     204831 job  1468 on # 0 of server 8xlarge COMPLETED
+t:     204831 job  1471 on # 0 of server 8xlarge RUNNING
+t:     204844 job  1471 on # 0 of server 8xlarge COMPLETED
+t:     204844 job  1478 on # 0 of server 8xlarge RUNNING
+t:     204866 job  1478 on # 0 of server 8xlarge COMPLETED
+t:     204866 job  1481 on # 0 of server 8xlarge RUNNING
+t:     204987 job  1481 on # 0 of server 8xlarge COMPLETED
+t:     204987 job  1485 on # 0 of server 8xlarge RUNNING
+t:     204996 job  1485 on # 0 of server 8xlarge COMPLETED
+t:     204996 job  1498 on # 0 of server 8xlarge RUNNING
+t:     205139 job  1498 on # 0 of server 8xlarge COMPLETED
+t:     205139 job  1801 on # 0 of server 8xlarge RUNNING
+t:     205247 job  1801 on # 0 of server 8xlarge COMPLETED
+t:     205247 job  1807 on # 0 of server 8xlarge RUNNING
+t:     205270 job  1807 on # 0 of server 8xlarge COMPLETED
+t:     205270 job  1808 on # 0 of server 8xlarge RUNNING
+t:     205435 job  1808 on # 0 of server 8xlarge COMPLETED
+t:     205435 job  1813 on # 0 of server 8xlarge RUNNING
+t:     205442 job  1813 on # 0 of server 8xlarge COMPLETED
+t:     205442 job  1816 on # 0 of server 8xlarge RUNNING
+t:     205518 job  1816 on # 0 of server 8xlarge COMPLETED
+t:     205518 job  1821 on # 0 of server 8xlarge RUNNING
+t:     205588 job  1821 on # 0 of server 8xlarge COMPLETED
+t:     205588 job  1827 on # 0 of server 8xlarge RUNNING
+t:     205634 job  1827 on # 0 of server 8xlarge COMPLETED
+t:     205634 job  1829 on # 0 of server 8xlarge RUNNING
+t:     205673 job  1829 on # 0 of server 8xlarge COMPLETED
+t:     205673 job  1845 on # 0 of server 8xlarge RUNNING
+t:     205698 job  1845 on # 0 of server 8xlarge COMPLETED
+t:     205698 job  1853 on # 0 of server 8xlarge RUNNING
+t:     205720 job  1853 on # 0 of server 8xlarge COMPLETED
+t:     205720 job  1859 on # 0 of server 8xlarge RUNNING
+t:     205820 job  1859 on # 0 of server 8xlarge COMPLETED
+t:     205820 job  1860 on # 0 of server 8xlarge RUNNING
+t:     205825 job  1860 on # 0 of server 8xlarge COMPLETED
+t:     205825 job  1861 on # 0 of server 8xlarge RUNNING
+t:     205850 job  1861 on # 0 of server 8xlarge COMPLETED
+t:     205850 job  1872 on # 0 of server 8xlarge RUNNING
+t:     206256 job  1872 on # 0 of server 8xlarge COMPLETED
+t:     211793 job  1798 on # 4 of server 8xlarge COMPLETED
+t:     212874 job  1844 on # 0 of server new_xlarge COMPLETED
+t:     214477 job  1963 on # 2 of server new_medium COMPLETED
+t:     214926 job  1962 on # 0 of server tiny COMPLETED
+t:     225796 job  1987 on # 2 of server tiny COMPLETED
+t:     226428 job  1805 on # 0 of server new_8xlarge COMPLETED
+t:     226428 job  1811 on # 0 of server new_8xlarge RUNNING
+t:     226436 job  1811 on # 0 of server new_8xlarge COMPLETED
+t:     226436 job  1814 on # 0 of server new_8xlarge RUNNING
+t:     226450 job  1814 on # 0 of server new_8xlarge COMPLETED
+t:     226450 job  1818 on # 0 of server new_8xlarge RUNNING
+t:     226581 job  1818 on # 0 of server new_8xlarge COMPLETED
+t:     226581 job  1820 on # 0 of server new_8xlarge RUNNING
+t:     226604 job  1820 on # 0 of server new_8xlarge COMPLETED
+t:     226604 job  1835 on # 0 of server new_8xlarge RUNNING
+t:     226761 job  1835 on # 0 of server new_8xlarge COMPLETED
+t:     226761 job  1838 on # 0 of server new_8xlarge RUNNING
+t:     226784 job  1838 on # 0 of server new_8xlarge COMPLETED
+t:     226784 job  1839 on # 0 of server new_8xlarge RUNNING
+t:     234605 job  1839 on # 0 of server new_8xlarge COMPLETED
+t:     234605 job  1840 on # 0 of server new_8xlarge RUNNING
+t:     234615 job  1840 on # 0 of server new_8xlarge COMPLETED
+t:     234615 job  1847 on # 0 of server new_8xlarge RUNNING
+t:     238490 job  1862 on # 0 of server new_4xlarge COMPLETED
+t:     238490 job  1870 on # 0 of server new_4xlarge RUNNING
+t:     239021 job  1870 on # 0 of server new_4xlarge COMPLETED
+t:     239021 job  1874 on # 0 of server new_4xlarge RUNNING
+t:     239422 job  1874 on # 0 of server new_4xlarge COMPLETED
+t:     239422 job  1875 on # 0 of server new_4xlarge RUNNING
+t:     239589 job  1875 on # 0 of server new_4xlarge COMPLETED
+t:     274895 job  1847 on # 0 of server new_8xlarge COMPLETED
+t:     274895 job  1851 on # 0 of server new_8xlarge RUNNING
+t:     298249 job  1851 on # 0 of server new_8xlarge COMPLETED
+t:     298249 job  1856 on # 0 of server new_8xlarge RUNNING
+t:     298582 job  1856 on # 0 of server new_8xlarge COMPLETED
+t:     298582 job  1857 on # 0 of server new_8xlarge RUNNING
+t:     298605 job  1857 on # 0 of server new_8xlarge COMPLETED
+t:     298605 job  1867 on # 0 of server new_8xlarge RUNNING
+t:     298610 job  1867 on # 0 of server new_8xlarge COMPLETED
+t:     298610 job  1871 on # 0 of server new_8xlarge RUNNING
+t:     299315 job  1871 on # 0 of server new_8xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 2 large_sydney servers used with a utilisation of 14.16 at the cost of $52.67
+# 0 large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 9 tiny servers used with a utilisation of 16.26 at the cost of $54.28
+# 0 large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 2xlarge servers used with a utilisation of 18.55 at the cost of $400.91
+# 0 large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 medium servers used with a utilisation of 32.81 at the cost of $44.64
+# 4 xlarge servers used with a utilisation of 24.25 at the cost of $400.57
+# 4 4xlarge servers used with a utilisation of 13.65 at the cost of $1603.36
+# 0 large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 4 small servers used with a utilisation of 7.23 at the cost of $46.12
+# 5 8xlarge servers used with a utilisation of 40.28 at the cost of $4007.62
+# 2 new_large_sydney servers used with a utilisation of 9.18 at the cost of $111.72
+# 1 new_large_melbourne servers used with a utilisation of 0.02 at the cost of $40.54
+# 0 new_large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_2xlarge servers used with a utilisation of 15.71 at the cost of $501.04
+# 0 new_large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 3 new_medium servers used with a utilisation of 44.61 at the cost of $101.44
+# 4 new_xlarge servers used with a utilisation of 17.07 at the cost of $456.42
+# 4 new_4xlarge servers used with a utilisation of 15.04 at the cost of $1701.17
+# 0 new_large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_small servers used with a utilisation of 7.58 at the cost of $34.30
+# 5 new_8xlarge servers used with a utilisation of 32.58 at the cost of $6645.82
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 299315
+# total #servers used: 55, avg utilisation: 20.90 and total cost: $16202.63
+# avg waiting time: 6907, avg exec time: 1299 and avg turnaround time: 8206
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>BF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     194939 job  1743 on # 0 of server new_4xlarge COMPLETED
+t:     194939 job  1802 on # 0 of server new_4xlarge RUNNING
+t:     194941 job  1802 on # 0 of server new_4xlarge COMPLETED
+t:     194941 job  1806 on # 0 of server new_4xlarge RUNNING
+t:     194970 job  1999 on # 1 of server new_medium COMPLETED
+t:     195060 job  1806 on # 0 of server new_4xlarge COMPLETED
+t:     195060 job  1817 on # 0 of server new_4xlarge RUNNING
+t:     195892 job  1817 on # 0 of server new_4xlarge COMPLETED
+t:     195892 job  1824 on # 0 of server new_4xlarge RUNNING
+t:     195918 job  1824 on # 0 of server new_4xlarge COMPLETED
+t:     195918 job  1862 on # 0 of server new_4xlarge RUNNING
+t:     196836 job  1961 on # 0 of server medium COMPLETED
+t:     198438 job  1912 on # 1 of server new_medium COMPLETED
+t:     199382 job  1968 on # 1 of server medium COMPLETED
+t:     199756 job  1881 on # 3 of server 4xlarge COMPLETED
+t:     200242 job  1702 on # 2 of server new_8xlarge COMPLETED
+t:     201277 job  1894 on # 1 of server 4xlarge COMPLETED
+t:     203689 job  1687 on # 0 of server 2xlarge COMPLETED
+t:     204416 job  1716 on # 1 of server new_8xlarge COMPLETED
+t:     211793 job  1798 on # 4 of server 8xlarge COMPLETED
+t:     212874 job  1844 on # 4 of server 8xlarge COMPLETED
+t:     214477 job  1963 on # 0 of server new_medium COMPLETED
+t:     214926 job  1962 on # 0 of server xlarge COMPLETED
+t:     225796 job  1987 on # 0 of server tiny COMPLETED
+t:     226328 job  1805 on # 0 of server new_8xlarge COMPLETED
+t:     226328 job  1811 on # 0 of server new_8xlarge RUNNING
+t:     226336 job  1811 on # 0 of server new_8xlarge COMPLETED
+t:     226336 job  1814 on # 0 of server new_8xlarge RUNNING
+t:     226350 job  1814 on # 0 of server new_8xlarge COMPLETED
+t:     226350 job  1818 on # 0 of server new_8xlarge RUNNING
+t:     226481 job  1818 on # 0 of server new_8xlarge COMPLETED
+t:     226481 job  1820 on # 0 of server new_8xlarge RUNNING
+t:     226504 job  1820 on # 0 of server new_8xlarge COMPLETED
+t:     226504 job  1835 on # 0 of server new_8xlarge RUNNING
+t:     226661 job  1835 on # 0 of server new_8xlarge COMPLETED
+t:     226661 job  1836 on # 0 of server new_8xlarge RUNNING
+t:     227097 job  1836 on # 0 of server new_8xlarge COMPLETED
+t:     227097 job  1838 on # 0 of server new_8xlarge RUNNING
+t:     227120 job  1838 on # 0 of server new_8xlarge COMPLETED
+t:     227120 job  1839 on # 0 of server new_8xlarge RUNNING
+t:     234941 job  1839 on # 0 of server new_8xlarge COMPLETED
+t:     234941 job  1840 on # 0 of server new_8xlarge RUNNING
+t:     234951 job  1840 on # 0 of server new_8xlarge COMPLETED
+t:     234951 job  1847 on # 0 of server new_8xlarge RUNNING
+t:     238490 job  1862 on # 0 of server new_4xlarge COMPLETED
+t:     238490 job  1870 on # 0 of server new_4xlarge RUNNING
+t:     239021 job  1870 on # 0 of server new_4xlarge COMPLETED
+t:     239021 job  1874 on # 0 of server new_4xlarge RUNNING
+t:     239422 job  1874 on # 0 of server new_4xlarge COMPLETED
+t:     239422 job  1875 on # 0 of server new_4xlarge RUNNING
+t:     239589 job  1875 on # 0 of server new_4xlarge COMPLETED
+t:     275231 job  1847 on # 0 of server new_8xlarge COMPLETED
+t:     275231 job  1851 on # 0 of server new_8xlarge RUNNING
+t:     298585 job  1851 on # 0 of server new_8xlarge COMPLETED
+t:     298585 job  1856 on # 0 of server new_8xlarge RUNNING
+t:     298918 job  1856 on # 0 of server new_8xlarge COMPLETED
+t:     298918 job  1857 on # 0 of server new_8xlarge RUNNING
+t:     298941 job  1857 on # 0 of server new_8xlarge COMPLETED
+t:     298941 job  1867 on # 0 of server new_8xlarge RUNNING
+t:     298946 job  1867 on # 0 of server new_8xlarge COMPLETED
+t:     298946 job  1871 on # 0 of server new_8xlarge RUNNING
+t:     299651 job  1871 on # 0 of server new_8xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 6 tiny servers used with a utilisation of 14.97 at the cost of $36.10
+# 0 large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 2xlarge servers used with a utilisation of 17.81 at the cost of $400.91
+# 0 large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 large_newyork servers used with a utilisation of 21.20 at the cost of $45.43
+# 0 large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 medium servers used with a utilisation of 29.57 at the cost of $44.64
+# 4 xlarge servers used with a utilisation of 17.69 at the cost of $400.32
+# 4 4xlarge servers used with a utilisation of 17.39 at the cost of $1603.36
+# 0 large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 3 small servers used with a utilisation of 2.15 at the cost of $25.18
+# 5 8xlarge servers used with a utilisation of 43.70 at the cost of $4007.62
+# 0 new_large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 new_tiny servers used with a utilisation of 0.01 at the cost of $9.40
+# 0 new_large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_2xlarge servers used with a utilisation of 8.84 at the cost of $446.62
+# 0 new_large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_large_newyork servers used with a utilisation of 9.05 at the cost of $122.90
+# 1 new_large_virginia servers used with a utilisation of 0.02 at the cost of $44.60
+# 0 new_large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 4 new_medium servers used with a utilisation of 27.81 at the cost of $94.11
+# 4 new_xlarge servers used with a utilisation of 5.55 at the cost of $412.46
+# 4 new_4xlarge servers used with a utilisation of 13.91 at the cost of $1701.14
+# 0 new_large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_small servers used with a utilisation of 7.56 at the cost of $34.30
+# 5 new_8xlarge servers used with a utilisation of 32.21 at the cost of $6653.28
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 299651
+# total #servers used: 52, avg utilisation: 18.70 and total cost: $16082.36
+# avg waiting time: 7211, avg exec time: 1301 and avg turnaround time: 8512
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>WF<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     194939 job  1743 on # 1 of server 8xlarge COMPLETED
+t:     194970 job  1999 on # 0 of server 8xlarge COMPLETED
+t:     196836 job  1961 on # 1 of server new_8xlarge COMPLETED
+t:     198438 job  1912 on # 1 of server new_8xlarge COMPLETED
+t:     199382 job  1968 on # 2 of server 8xlarge COMPLETED
+t:     199670 job   666 on # 0 of server new_8xlarge COMPLETED
+t:     199670 job   670 on # 0 of server new_8xlarge RUNNING
+t:     199696 job   670 on # 0 of server new_8xlarge COMPLETED
+t:     199696 job   671 on # 0 of server new_8xlarge RUNNING
+t:     199756 job  1881 on # 1 of server new_8xlarge COMPLETED
+t:     199816 job   671 on # 0 of server new_8xlarge COMPLETED
+t:     199816 job   672 on # 0 of server new_8xlarge RUNNING
+t:     199911 job   672 on # 0 of server new_8xlarge COMPLETED
+t:     199911 job   673 on # 0 of server new_8xlarge RUNNING
+t:     199969 job   673 on # 0 of server new_8xlarge COMPLETED
+t:     199969 job   675 on # 0 of server new_8xlarge RUNNING
+t:     199990 job   675 on # 0 of server new_8xlarge COMPLETED
+t:     199990 job   676 on # 0 of server new_8xlarge RUNNING
+t:     200007 job   676 on # 0 of server new_8xlarge COMPLETED
+t:     200007 job   678 on # 0 of server new_8xlarge RUNNING
+t:     200058 job   678 on # 0 of server new_8xlarge COMPLETED
+t:     200058 job   680 on # 0 of server new_8xlarge RUNNING
+t:     200235 job   680 on # 0 of server new_8xlarge COMPLETED
+t:     200235 job   683 on # 0 of server new_8xlarge RUNNING
+t:     200242 job  1702 on # 4 of server new_8xlarge COMPLETED
+t:     200939 job   683 on # 0 of server new_8xlarge COMPLETED
+t:     200939 job   684 on # 0 of server new_8xlarge RUNNING
+t:     201277 job  1894 on # 1 of server new_8xlarge COMPLETED
+t:     201372 job   684 on # 0 of server new_8xlarge COMPLETED
+t:     201372 job   685 on # 0 of server new_8xlarge RUNNING
+t:     201387 job   685 on # 0 of server new_8xlarge COMPLETED
+t:     201387 job   686 on # 0 of server new_8xlarge RUNNING
+t:     201404 job   686 on # 0 of server new_8xlarge COMPLETED
+t:     201404 job   689 on # 0 of server new_8xlarge RUNNING
+t:     201535 job   689 on # 0 of server new_8xlarge COMPLETED
+t:     201535 job   691 on # 0 of server new_8xlarge RUNNING
+t:     201674 job   691 on # 0 of server new_8xlarge COMPLETED
+t:     201674 job   695 on # 0 of server new_8xlarge RUNNING
+t:     201695 job   695 on # 0 of server new_8xlarge COMPLETED
+t:     201695 job   696 on # 0 of server new_8xlarge RUNNING
+t:     201707 job   696 on # 0 of server new_8xlarge COMPLETED
+t:     201707 job   702 on # 0 of server new_8xlarge RUNNING
+t:     202541 job   702 on # 0 of server new_8xlarge COMPLETED
+t:     202541 job   703 on # 0 of server new_8xlarge RUNNING
+t:     203184 job   703 on # 0 of server new_8xlarge COMPLETED
+t:     203184 job   704 on # 0 of server new_8xlarge RUNNING
+t:     203190 job   704 on # 0 of server new_8xlarge COMPLETED
+t:     203190 job   705 on # 0 of server new_8xlarge RUNNING
+t:     203228 job   705 on # 0 of server new_8xlarge COMPLETED
+t:     203228 job   706 on # 0 of server new_8xlarge RUNNING
+t:     203325 job   706 on # 0 of server new_8xlarge COMPLETED
+t:     203325 job   709 on # 0 of server new_8xlarge RUNNING
+t:     203334 job   709 on # 0 of server new_8xlarge COMPLETED
+t:     203334 job   711 on # 0 of server new_8xlarge RUNNING
+t:     203377 job   711 on # 0 of server new_8xlarge COMPLETED
+t:     203377 job   717 on # 0 of server new_8xlarge RUNNING
+t:     203689 job  1687 on # 2 of server new_8xlarge COMPLETED
+t:     204098 job   717 on # 0 of server new_8xlarge COMPLETED
+t:     204098 job   719 on # 0 of server new_8xlarge RUNNING
+t:     204101 job   719 on # 0 of server new_8xlarge COMPLETED
+t:     204101 job   721 on # 0 of server new_8xlarge RUNNING
+t:     204416 job  1716 on # 3 of server new_8xlarge COMPLETED
+t:     204733 job   721 on # 0 of server new_8xlarge COMPLETED
+t:     204733 job   722 on # 0 of server new_8xlarge RUNNING
+t:     204816 job   722 on # 0 of server new_8xlarge COMPLETED
+t:     204816 job   723 on # 0 of server new_8xlarge RUNNING
+t:     204842 job   723 on # 0 of server new_8xlarge COMPLETED
+t:     204842 job   725 on # 0 of server new_8xlarge RUNNING
+t:     204858 job   725 on # 0 of server new_8xlarge COMPLETED
+t:     204858 job   726 on # 0 of server new_8xlarge RUNNING
+t:     204861 job   726 on # 0 of server new_8xlarge COMPLETED
+t:     204861 job   727 on # 0 of server new_8xlarge RUNNING
+t:     204936 job   727 on # 0 of server new_8xlarge COMPLETED
+t:     204936 job   728 on # 0 of server new_8xlarge RUNNING
+t:     205014 job   728 on # 0 of server new_8xlarge COMPLETED
+t:     205014 job   730 on # 0 of server new_8xlarge RUNNING
+t:     205068 job   730 on # 0 of server new_8xlarge COMPLETED
+t:     205068 job   732 on # 0 of server new_8xlarge RUNNING
+t:     205773 job   732 on # 0 of server new_8xlarge COMPLETED
+t:     205773 job   734 on # 0 of server new_8xlarge RUNNING
+t:     205797 job   734 on # 0 of server new_8xlarge COMPLETED
+t:     205797 job   739 on # 0 of server new_8xlarge RUNNING
+t:     205873 job   739 on # 0 of server new_8xlarge COMPLETED
+t:     205873 job   740 on # 0 of server new_8xlarge RUNNING
+t:     206052 job   740 on # 0 of server new_8xlarge COMPLETED
+t:     206052 job   741 on # 0 of server new_8xlarge RUNNING
+t:     206052 job   742 on # 0 of server new_8xlarge RUNNING
+t:     206065 job   741 on # 0 of server new_8xlarge COMPLETED
+t:     206075 job   742 on # 0 of server new_8xlarge COMPLETED
+t:     206075 job   743 on # 0 of server new_8xlarge RUNNING
+t:     206130 job   743 on # 0 of server new_8xlarge COMPLETED
+t:     206130 job   744 on # 0 of server new_8xlarge RUNNING
+t:     206469 job   744 on # 0 of server new_8xlarge COMPLETED
+t:     206469 job   745 on # 0 of server new_8xlarge RUNNING
+t:     206984 job   745 on # 0 of server new_8xlarge COMPLETED
+t:     206984 job   748 on # 0 of server new_8xlarge RUNNING
+t:     207121 job   748 on # 0 of server new_8xlarge COMPLETED
+t:     207121 job   862 on # 0 of server new_8xlarge RUNNING
+t:     207174 job   862 on # 0 of server new_8xlarge COMPLETED
+t:     207174 job   864 on # 0 of server new_8xlarge RUNNING
+t:     207210 job   864 on # 0 of server new_8xlarge COMPLETED
+t:     207210 job   885 on # 0 of server new_8xlarge RUNNING
+t:     207213 job   885 on # 0 of server new_8xlarge COMPLETED
+t:     207213 job   889 on # 0 of server new_8xlarge RUNNING
+t:     207719 job   889 on # 0 of server new_8xlarge COMPLETED
+t:     207719 job   895 on # 0 of server new_8xlarge RUNNING
+t:     207727 job   895 on # 0 of server new_8xlarge COMPLETED
+t:     207727 job   897 on # 0 of server new_8xlarge RUNNING
+t:     207813 job   897 on # 0 of server new_8xlarge COMPLETED
+t:     207813 job   899 on # 0 of server new_8xlarge RUNNING
+t:     207918 job   899 on # 0 of server new_8xlarge COMPLETED
+t:     207918 job   903 on # 0 of server new_8xlarge RUNNING
+t:     208062 job   903 on # 0 of server new_8xlarge COMPLETED
+t:     208062 job   904 on # 0 of server new_8xlarge RUNNING
+t:     208102 job   904 on # 0 of server new_8xlarge COMPLETED
+t:     208102 job   905 on # 0 of server new_8xlarge RUNNING
+t:     208854 job   905 on # 0 of server new_8xlarge COMPLETED
+t:     208854 job   912 on # 0 of server new_8xlarge RUNNING
+t:     209018 job   912 on # 0 of server new_8xlarge COMPLETED
+t:     209018 job   920 on # 0 of server new_8xlarge RUNNING
+t:     209824 job   920 on # 0 of server new_8xlarge COMPLETED
+t:     209824 job   963 on # 0 of server new_8xlarge RUNNING
+t:     209837 job   963 on # 0 of server new_8xlarge COMPLETED
+t:     209837 job   970 on # 0 of server new_8xlarge RUNNING
+t:     209906 job   970 on # 0 of server new_8xlarge COMPLETED
+t:     209906 job   973 on # 0 of server new_8xlarge RUNNING
+t:     209918 job   973 on # 0 of server new_8xlarge COMPLETED
+t:     209918 job   978 on # 0 of server new_8xlarge RUNNING
+t:     210555 job   978 on # 0 of server new_8xlarge COMPLETED
+t:     210555 job   981 on # 0 of server new_8xlarge RUNNING
+t:     210672 job   981 on # 0 of server new_8xlarge COMPLETED
+t:     210672 job   988 on # 0 of server new_8xlarge RUNNING
+t:     211793 job  1798 on # 1 of server 4xlarge COMPLETED
+t:     212874 job  1844 on # 2 of server new_8xlarge COMPLETED
+t:     214477 job  1963 on # 1 of server new_8xlarge COMPLETED
+t:     214926 job  1962 on # 1 of server new_8xlarge COMPLETED
+t:     225796 job  1987 on # 3 of server 8xlarge COMPLETED
+t:     233993 job   988 on # 0 of server new_8xlarge COMPLETED
+t:     233993 job   989 on # 0 of server new_8xlarge RUNNING
+t:     234156 job   989 on # 0 of server new_8xlarge COMPLETED
+t:     234156 job   990 on # 0 of server new_8xlarge RUNNING
+t:     234863 job   990 on # 0 of server new_8xlarge COMPLETED
+t:     234863 job   993 on # 0 of server new_8xlarge RUNNING
+t:     234953 job   993 on # 0 of server new_8xlarge COMPLETED
+t:     234953 job   995 on # 0 of server new_8xlarge RUNNING
+t:     235021 job   995 on # 0 of server new_8xlarge COMPLETED
+t:     235021 job   998 on # 0 of server new_8xlarge RUNNING
+t:     235049 job   998 on # 0 of server new_8xlarge COMPLETED
+t:     235049 job  1003 on # 0 of server new_8xlarge RUNNING
+t:     235058 job  1003 on # 0 of server new_8xlarge COMPLETED
+t:     235058 job  1005 on # 0 of server new_8xlarge RUNNING
+t:     235878 job  1005 on # 0 of server new_8xlarge COMPLETED
+t:     235878 job  1007 on # 0 of server new_8xlarge RUNNING
+t:     236458 job  1007 on # 0 of server new_8xlarge COMPLETED
+t:     236458 job  1008 on # 0 of server new_8xlarge RUNNING
+t:     236844 job  1008 on # 0 of server new_8xlarge COMPLETED
+t:     236844 job  1010 on # 0 of server new_8xlarge RUNNING
+t:     236944 job  1010 on # 0 of server new_8xlarge COMPLETED
+t:     236944 job  1011 on # 0 of server new_8xlarge RUNNING
+t:     236957 job  1011 on # 0 of server new_8xlarge COMPLETED
+t:     236957 job  1012 on # 0 of server new_8xlarge RUNNING
+t:     236968 job  1012 on # 0 of server new_8xlarge COMPLETED
+t:     236968 job  1016 on # 0 of server new_8xlarge RUNNING
+t:     236980 job  1016 on # 0 of server new_8xlarge COMPLETED
+t:     236980 job  1017 on # 0 of server new_8xlarge RUNNING
+t:     236995 job  1017 on # 0 of server new_8xlarge COMPLETED
+t:     236995 job  1023 on # 0 of server new_8xlarge RUNNING
+t:     273038 job  1023 on # 0 of server new_8xlarge COMPLETED
+t:     273038 job  1025 on # 0 of server new_8xlarge RUNNING
+t:     273110 job  1025 on # 0 of server new_8xlarge COMPLETED
+t:     273110 job  1026 on # 0 of server new_8xlarge RUNNING
+t:     273180 job  1026 on # 0 of server new_8xlarge COMPLETED
+t:     273180 job  1027 on # 0 of server new_8xlarge RUNNING
+t:     273349 job  1027 on # 0 of server new_8xlarge COMPLETED
+t:     273349 job  1028 on # 0 of server new_8xlarge RUNNING
+t:     273360 job  1028 on # 0 of server new_8xlarge COMPLETED
+t:     273360 job  1029 on # 0 of server new_8xlarge RUNNING
+t:     273368 job  1029 on # 0 of server new_8xlarge COMPLETED
+t:     273368 job  1034 on # 0 of server new_8xlarge RUNNING
+t:     273387 job  1034 on # 0 of server new_8xlarge COMPLETED
+t:     273387 job  1035 on # 0 of server new_8xlarge RUNNING
+t:     273390 job  1035 on # 0 of server new_8xlarge COMPLETED
+t:     273390 job  1039 on # 0 of server new_8xlarge RUNNING
+t:     273516 job  1039 on # 0 of server new_8xlarge COMPLETED
+t:     273516 job  1043 on # 0 of server new_8xlarge RUNNING
+t:     273519 job  1043 on # 0 of server new_8xlarge COMPLETED
+t:     273519 job  1044 on # 0 of server new_8xlarge RUNNING
+t:     273533 job  1044 on # 0 of server new_8xlarge COMPLETED
+t:     273533 job  1047 on # 0 of server new_8xlarge RUNNING
+t:     273558 job  1047 on # 0 of server new_8xlarge COMPLETED
+t:     273558 job  1049 on # 0 of server new_8xlarge RUNNING
+t:     273644 job  1049 on # 0 of server new_8xlarge COMPLETED
+t:     273644 job  1051 on # 0 of server new_8xlarge RUNNING
+t:     273672 job  1051 on # 0 of server new_8xlarge COMPLETED
+t:     273672 job  1052 on # 0 of server new_8xlarge RUNNING
+t:     273689 job  1052 on # 0 of server new_8xlarge COMPLETED
+t:     273689 job  1053 on # 0 of server new_8xlarge RUNNING
+t:     273761 job  1053 on # 0 of server new_8xlarge COMPLETED
+t:     273761 job  1055 on # 0 of server new_8xlarge RUNNING
+t:     273774 job  1055 on # 0 of server new_8xlarge COMPLETED
+t:     273774 job  1056 on # 0 of server new_8xlarge RUNNING
+t:     274369 job  1056 on # 0 of server new_8xlarge COMPLETED
+t:     274369 job  1057 on # 0 of server new_8xlarge RUNNING
+t:     317456 job  1057 on # 0 of server new_8xlarge COMPLETED
+t:     317456 job  1059 on # 0 of server new_8xlarge RUNNING
+t:     317559 job  1059 on # 0 of server new_8xlarge COMPLETED
+t:     317559 job  1060 on # 0 of server new_8xlarge RUNNING
+t:     317671 job  1060 on # 0 of server new_8xlarge COMPLETED
+t:     317671 job  1062 on # 0 of server new_8xlarge RUNNING
+t:     317706 job  1062 on # 0 of server new_8xlarge COMPLETED
+t:     317706 job  1064 on # 0 of server new_8xlarge RUNNING
+t:     317723 job  1064 on # 0 of server new_8xlarge COMPLETED
+t:     317723 job  1065 on # 0 of server new_8xlarge RUNNING
+t:     317747 job  1065 on # 0 of server new_8xlarge COMPLETED
+t:     317747 job  1066 on # 0 of server new_8xlarge RUNNING
+t:     318404 job  1066 on # 0 of server new_8xlarge COMPLETED
+t:     318404 job  1069 on # 0 of server new_8xlarge RUNNING
+t:     318409 job  1069 on # 0 of server new_8xlarge COMPLETED
+t:     318409 job  1070 on # 0 of server new_8xlarge RUNNING
+t:     318580 job  1070 on # 0 of server new_8xlarge COMPLETED
+t:     318580 job  1071 on # 0 of server new_8xlarge RUNNING
+t:     318582 job  1071 on # 0 of server new_8xlarge COMPLETED
+t:     318582 job  1074 on # 0 of server new_8xlarge RUNNING
+t:     318603 job  1074 on # 0 of server new_8xlarge COMPLETED
+t:     318603 job  1075 on # 0 of server new_8xlarge RUNNING
+t:     332255 job  1075 on # 0 of server new_8xlarge COMPLETED
+t:     332255 job  1077 on # 0 of server new_8xlarge RUNNING
+t:     332790 job  1077 on # 0 of server new_8xlarge COMPLETED
+t:     332790 job  1081 on # 0 of server new_8xlarge RUNNING
+t:     332828 job  1081 on # 0 of server new_8xlarge COMPLETED
+t:     332828 job  1084 on # 0 of server new_8xlarge RUNNING
+t:     332883 job  1084 on # 0 of server new_8xlarge COMPLETED
+t:     332883 job  1093 on # 0 of server new_8xlarge RUNNING
+t:     333644 job  1093 on # 0 of server new_8xlarge COMPLETED
+t:     333644 job  1094 on # 0 of server new_8xlarge RUNNING
+t:     333668 job  1094 on # 0 of server new_8xlarge COMPLETED
+t:     333668 job  1095 on # 0 of server new_8xlarge RUNNING
+t:     333770 job  1095 on # 0 of server new_8xlarge COMPLETED
+t:     333770 job  1099 on # 0 of server new_8xlarge RUNNING
+t:     353498 job  1099 on # 0 of server new_8xlarge COMPLETED
+t:     353498 job  1102 on # 0 of server new_8xlarge RUNNING
+t:     353525 job  1102 on # 0 of server new_8xlarge COMPLETED
+t:     353525 job  1105 on # 0 of server new_8xlarge RUNNING
+t:     353649 job  1105 on # 0 of server new_8xlarge COMPLETED
+t:     353649 job  1106 on # 0 of server new_8xlarge RUNNING
+t:     353650 job  1106 on # 0 of server new_8xlarge COMPLETED
+t:     353650 job  1108 on # 0 of server new_8xlarge RUNNING
+t:     353667 job  1108 on # 0 of server new_8xlarge COMPLETED
+t:     353667 job  1115 on # 0 of server new_8xlarge RUNNING
+t:     353696 job  1115 on # 0 of server new_8xlarge COMPLETED
+t:     353696 job  1117 on # 0 of server new_8xlarge RUNNING
+t:     353723 job  1117 on # 0 of server new_8xlarge COMPLETED
+t:     353723 job  1118 on # 0 of server new_8xlarge RUNNING
+t:     353726 job  1118 on # 0 of server new_8xlarge COMPLETED
+t:     353726 job  1121 on # 0 of server new_8xlarge RUNNING
+t:     353817 job  1121 on # 0 of server new_8xlarge COMPLETED
+t:     353817 job  1122 on # 0 of server new_8xlarge RUNNING
+t:     353843 job  1122 on # 0 of server new_8xlarge COMPLETED
+t:     353843 job  1129 on # 0 of server new_8xlarge RUNNING
+t:     353882 job  1129 on # 0 of server new_8xlarge COMPLETED
+t:     353882 job  1131 on # 0 of server new_8xlarge RUNNING
+t:     354044 job  1131 on # 0 of server new_8xlarge COMPLETED
+t:     354044 job  1132 on # 0 of server new_8xlarge RUNNING
+t:     354157 job  1132 on # 0 of server new_8xlarge COMPLETED
+t:     354157 job  1133 on # 0 of server new_8xlarge RUNNING
+t:     354230 job  1133 on # 0 of server new_8xlarge COMPLETED
+t:     354230 job  1135 on # 0 of server new_8xlarge RUNNING
+t:     354235 job  1135 on # 0 of server new_8xlarge COMPLETED
+t:     354235 job  1136 on # 0 of server new_8xlarge RUNNING
+t:     354256 job  1136 on # 0 of server new_8xlarge COMPLETED
+t:     354256 job  1139 on # 0 of server new_8xlarge RUNNING
+t:     354285 job  1139 on # 0 of server new_8xlarge COMPLETED
+t:     354285 job  1142 on # 0 of server new_8xlarge RUNNING
+t:     354292 job  1142 on # 0 of server new_8xlarge COMPLETED
+t:     354292 job  1144 on # 0 of server new_8xlarge RUNNING
+t:     354304 job  1144 on # 0 of server new_8xlarge COMPLETED
+t:     354304 job  1147 on # 0 of server new_8xlarge RUNNING
+t:     354457 job  1147 on # 0 of server new_8xlarge COMPLETED
+t:     354457 job  1149 on # 0 of server new_8xlarge RUNNING
+t:     354458 job  1149 on # 0 of server new_8xlarge COMPLETED
+t:     354458 job  1153 on # 0 of server new_8xlarge RUNNING
+t:     354544 job  1153 on # 0 of server new_8xlarge COMPLETED
+t:     354544 job  1155 on # 0 of server new_8xlarge RUNNING
+t:     354610 job  1155 on # 0 of server new_8xlarge COMPLETED
+t:     354610 job  1157 on # 0 of server new_8xlarge RUNNING
+t:     354776 job  1157 on # 0 of server new_8xlarge COMPLETED
+t:     354776 job  1160 on # 0 of server new_8xlarge RUNNING
+t:     354865 job  1160 on # 0 of server new_8xlarge COMPLETED
+t:     354865 job  1161 on # 0 of server new_8xlarge RUNNING
+t:     355014 job  1161 on # 0 of server new_8xlarge COMPLETED
+t:     355014 job  1162 on # 0 of server new_8xlarge RUNNING
+t:     355738 job  1162 on # 0 of server new_8xlarge COMPLETED
+t:     355738 job  1165 on # 0 of server new_8xlarge RUNNING
+t:     355748 job  1165 on # 0 of server new_8xlarge COMPLETED
+t:     355748 job  1378 on # 0 of server new_8xlarge RUNNING
+t:     355874 job  1378 on # 0 of server new_8xlarge COMPLETED
+t:     355874 job  1380 on # 0 of server new_8xlarge RUNNING
+t:     355884 job  1380 on # 0 of server new_8xlarge COMPLETED
+t:     355884 job  1385 on # 0 of server new_8xlarge RUNNING
+t:     371605 job  1385 on # 0 of server new_8xlarge COMPLETED
+t:     371605 job  1386 on # 0 of server new_8xlarge RUNNING
+t:     371622 job  1386 on # 0 of server new_8xlarge COMPLETED
+t:     371622 job  1387 on # 0 of server new_8xlarge RUNNING
+t:     371730 job  1387 on # 0 of server new_8xlarge COMPLETED
+t:     371730 job  1389 on # 0 of server new_8xlarge RUNNING
+t:     371880 job  1389 on # 0 of server new_8xlarge COMPLETED
+t:     371880 job  1393 on # 0 of server new_8xlarge RUNNING
+t:     372483 job  1393 on # 0 of server new_8xlarge COMPLETED
+t:     372483 job  1401 on # 0 of server new_8xlarge RUNNING
+t:     372491 job  1401 on # 0 of server new_8xlarge COMPLETED
+t:     372491 job  1403 on # 0 of server new_8xlarge RUNNING
+t:     372608 job  1403 on # 0 of server new_8xlarge COMPLETED
+t:     372608 job  1409 on # 0 of server new_8xlarge RUNNING
+t:     373292 job  1409 on # 0 of server new_8xlarge COMPLETED
+t:     373292 job  1415 on # 0 of server new_8xlarge RUNNING
+t:     373313 job  1415 on # 0 of server new_8xlarge COMPLETED
+t:     373313 job  1416 on # 0 of server new_8xlarge RUNNING
+t:     373414 job  1416 on # 0 of server new_8xlarge COMPLETED
+t:     373414 job  1418 on # 0 of server new_8xlarge RUNNING
+t:     373442 job  1418 on # 0 of server new_8xlarge COMPLETED
+t:     373442 job  1422 on # 0 of server new_8xlarge RUNNING
+t:     373465 job  1422 on # 0 of server new_8xlarge COMPLETED
+t:     373465 job  1423 on # 0 of server new_8xlarge RUNNING
+t:     373570 job  1423 on # 0 of server new_8xlarge COMPLETED
+t:     373570 job  1429 on # 0 of server new_8xlarge RUNNING
+t:     373687 job  1429 on # 0 of server new_8xlarge COMPLETED
+t:     373687 job  1432 on # 0 of server new_8xlarge RUNNING
+t:     379537 job  1432 on # 0 of server new_8xlarge COMPLETED
+t:     379537 job  1436 on # 0 of server new_8xlarge RUNNING
+t:     379709 job  1436 on # 0 of server new_8xlarge COMPLETED
+t:     379709 job  1441 on # 0 of server new_8xlarge RUNNING
+t:     379767 job  1441 on # 0 of server new_8xlarge COMPLETED
+t:     379767 job  1444 on # 0 of server new_8xlarge RUNNING
+t:     379872 job  1444 on # 0 of server new_8xlarge COMPLETED
+t:     379872 job  1446 on # 0 of server new_8xlarge RUNNING
+t:     379900 job  1446 on # 0 of server new_8xlarge COMPLETED
+t:     379900 job  1447 on # 0 of server new_8xlarge RUNNING
+t:     380391 job  1447 on # 0 of server new_8xlarge COMPLETED
+t:     380391 job  1448 on # 0 of server new_8xlarge RUNNING
+t:     380541 job  1448 on # 0 of server new_8xlarge COMPLETED
+t:     380541 job  1450 on # 0 of server new_8xlarge RUNNING
+t:     381274 job  1450 on # 0 of server new_8xlarge COMPLETED
+t:     381274 job  1452 on # 0 of server new_8xlarge RUNNING
+t:     382089 job  1452 on # 0 of server new_8xlarge COMPLETED
+t:     382089 job  1453 on # 0 of server new_8xlarge RUNNING
+t:     395834 job  1453 on # 0 of server new_8xlarge COMPLETED
+t:     395834 job  1454 on # 0 of server new_8xlarge RUNNING
+t:     396266 job  1454 on # 0 of server new_8xlarge COMPLETED
+t:     396266 job  1459 on # 0 of server new_8xlarge RUNNING
+t:     396397 job  1459 on # 0 of server new_8xlarge COMPLETED
+t:     396397 job  1461 on # 0 of server new_8xlarge RUNNING
+t:     396991 job  1461 on # 0 of server new_8xlarge COMPLETED
+t:     396991 job  1462 on # 0 of server new_8xlarge RUNNING
+t:     397015 job  1462 on # 0 of server new_8xlarge COMPLETED
+t:     397015 job  1464 on # 0 of server new_8xlarge RUNNING
+t:     397068 job  1464 on # 0 of server new_8xlarge COMPLETED
+t:     397068 job  1468 on # 0 of server new_8xlarge RUNNING
+t:     397088 job  1468 on # 0 of server new_8xlarge COMPLETED
+t:     397088 job  1471 on # 0 of server new_8xlarge RUNNING
+t:     397101 job  1471 on # 0 of server new_8xlarge COMPLETED
+t:     397101 job  1474 on # 0 of server new_8xlarge RUNNING
+t:     397102 job  1474 on # 0 of server new_8xlarge COMPLETED
+t:     397102 job  1478 on # 0 of server new_8xlarge RUNNING
+t:     397124 job  1478 on # 0 of server new_8xlarge COMPLETED
+t:     397124 job  1479 on # 0 of server new_8xlarge RUNNING
+t:     397194 job  1479 on # 0 of server new_8xlarge COMPLETED
+t:     397194 job  1481 on # 0 of server new_8xlarge RUNNING
+t:     397315 job  1481 on # 0 of server new_8xlarge COMPLETED
+t:     397315 job  1483 on # 0 of server new_8xlarge RUNNING
+t:     397328 job  1483 on # 0 of server new_8xlarge COMPLETED
+t:     397328 job  1485 on # 0 of server new_8xlarge RUNNING
+t:     397337 job  1485 on # 0 of server new_8xlarge COMPLETED
+t:     397337 job  1487 on # 0 of server new_8xlarge RUNNING
+t:     397343 job  1487 on # 0 of server new_8xlarge COMPLETED
+t:     397343 job  1488 on # 0 of server new_8xlarge RUNNING
+t:     398235 job  1488 on # 0 of server new_8xlarge COMPLETED
+t:     398235 job  1490 on # 0 of server new_8xlarge RUNNING
+t:     429433 job  1490 on # 0 of server new_8xlarge COMPLETED
+t:     429433 job  1491 on # 0 of server new_8xlarge RUNNING
+t:     429437 job  1491 on # 0 of server new_8xlarge COMPLETED
+t:     429437 job  1492 on # 0 of server new_8xlarge RUNNING
+t:     429591 job  1492 on # 0 of server new_8xlarge COMPLETED
+t:     429591 job  1498 on # 0 of server new_8xlarge RUNNING
+t:     429734 job  1498 on # 0 of server new_8xlarge COMPLETED
+t:     429734 job  1647 on # 0 of server new_8xlarge RUNNING
+t:     429741 job  1647 on # 0 of server new_8xlarge COMPLETED
+t:     429741 job  1648 on # 0 of server new_8xlarge RUNNING
+t:     429800 job  1648 on # 0 of server new_8xlarge COMPLETED
+t:     429800 job  1649 on # 0 of server new_8xlarge RUNNING
+t:     430409 job  1649 on # 0 of server new_8xlarge COMPLETED
+t:     430409 job  1657 on # 0 of server new_8xlarge RUNNING
+t:     430438 job  1657 on # 0 of server new_8xlarge COMPLETED
+t:     430438 job  1684 on # 0 of server new_8xlarge RUNNING
+t:     430514 job  1684 on # 0 of server new_8xlarge COMPLETED
+t:     430514 job  1703 on # 0 of server new_8xlarge RUNNING
+t:     430948 job  1703 on # 0 of server new_8xlarge COMPLETED
+t:     430948 job  1704 on # 0 of server new_8xlarge RUNNING
+t:     430952 job  1704 on # 0 of server new_8xlarge COMPLETED
+t:     430952 job  1705 on # 0 of server new_8xlarge RUNNING
+t:     430970 job  1705 on # 0 of server new_8xlarge COMPLETED
+t:     430970 job  1721 on # 0 of server new_8xlarge RUNNING
+t:     430996 job  1721 on # 0 of server new_8xlarge COMPLETED
+t:     430996 job  1722 on # 0 of server new_8xlarge RUNNING
+t:     431171 job  1722 on # 0 of server new_8xlarge COMPLETED
+t:     431171 job  1726 on # 0 of server new_8xlarge RUNNING
+t:     431344 job  1726 on # 0 of server new_8xlarge COMPLETED
+t:     431344 job  1730 on # 0 of server new_8xlarge RUNNING
+t:     431365 job  1730 on # 0 of server new_8xlarge COMPLETED
+t:     431365 job  1735 on # 0 of server new_8xlarge RUNNING
+t:     431366 job  1735 on # 0 of server new_8xlarge COMPLETED
+t:     431366 job  1739 on # 0 of server new_8xlarge RUNNING
+t:     432133 job  1739 on # 0 of server new_8xlarge COMPLETED
+t:     432133 job  1740 on # 0 of server new_8xlarge RUNNING
+t:     432159 job  1740 on # 0 of server new_8xlarge COMPLETED
+t:     432159 job  1742 on # 0 of server new_8xlarge RUNNING
+t:     432258 job  1742 on # 0 of server new_8xlarge COMPLETED
+t:     432258 job  1758 on # 0 of server new_8xlarge RUNNING
+t:     432278 job  1758 on # 0 of server new_8xlarge COMPLETED
+t:     432278 job  1759 on # 0 of server new_8xlarge RUNNING
+t:     432297 job  1759 on # 0 of server new_8xlarge COMPLETED
+t:     432297 job  1765 on # 0 of server new_8xlarge RUNNING
+t:     432313 job  1765 on # 0 of server new_8xlarge COMPLETED
+t:     432313 job  1767 on # 0 of server new_8xlarge RUNNING
+t:     432328 job  1767 on # 0 of server new_8xlarge COMPLETED
+t:     432328 job  1769 on # 0 of server new_8xlarge RUNNING
+t:     432356 job  1769 on # 0 of server new_8xlarge COMPLETED
+t:     432356 job  1774 on # 0 of server new_8xlarge RUNNING
+t:     432374 job  1774 on # 0 of server new_8xlarge COMPLETED
+t:     432374 job  1778 on # 0 of server new_8xlarge RUNNING
+t:     432457 job  1778 on # 0 of server new_8xlarge COMPLETED
+t:     432457 job  1780 on # 0 of server new_8xlarge RUNNING
+t:     432466 job  1780 on # 0 of server new_8xlarge COMPLETED
+t:     432466 job  1782 on # 0 of server new_8xlarge RUNNING
+t:     432480 job  1782 on # 0 of server new_8xlarge COMPLETED
+t:     432480 job  1783 on # 0 of server new_8xlarge RUNNING
+t:     432482 job  1783 on # 0 of server new_8xlarge COMPLETED
+t:     432482 job  1784 on # 0 of server new_8xlarge RUNNING
+t:     432547 job  1784 on # 0 of server new_8xlarge COMPLETED
+t:     432547 job  1786 on # 0 of server new_8xlarge RUNNING
+t:     432574 job  1786 on # 0 of server new_8xlarge COMPLETED
+t:     432574 job  1787 on # 0 of server new_8xlarge RUNNING
+t:     432667 job  1787 on # 0 of server new_8xlarge COMPLETED
+t:     432667 job  1788 on # 0 of server new_8xlarge RUNNING
+t:     432832 job  1788 on # 0 of server new_8xlarge COMPLETED
+t:     432832 job  1789 on # 0 of server new_8xlarge RUNNING
+t:     432850 job  1789 on # 0 of server new_8xlarge COMPLETED
+t:     432850 job  1791 on # 0 of server new_8xlarge RUNNING
+t:     433252 job  1791 on # 0 of server new_8xlarge COMPLETED
+t:     433252 job  1796 on # 0 of server new_8xlarge RUNNING
+t:     433370 job  1796 on # 0 of server new_8xlarge COMPLETED
+t:     433370 job  1802 on # 0 of server new_8xlarge RUNNING
+t:     433372 job  1802 on # 0 of server new_8xlarge COMPLETED
+t:     433372 job  1803 on # 0 of server new_8xlarge RUNNING
+t:     433458 job  1803 on # 0 of server new_8xlarge COMPLETED
+t:     433458 job  1805 on # 0 of server new_8xlarge RUNNING
+t:     475178 job  1805 on # 0 of server new_8xlarge COMPLETED
+t:     475178 job  1806 on # 0 of server new_8xlarge RUNNING
+t:     475297 job  1806 on # 0 of server new_8xlarge COMPLETED
+t:     475297 job  1807 on # 0 of server new_8xlarge RUNNING
+t:     475320 job  1807 on # 0 of server new_8xlarge COMPLETED
+t:     475320 job  1808 on # 0 of server new_8xlarge RUNNING
+t:     475485 job  1808 on # 0 of server new_8xlarge COMPLETED
+t:     475485 job  1811 on # 0 of server new_8xlarge RUNNING
+t:     475493 job  1811 on # 0 of server new_8xlarge COMPLETED
+t:     475493 job  1813 on # 0 of server new_8xlarge RUNNING
+t:     475500 job  1813 on # 0 of server new_8xlarge COMPLETED
+t:     475500 job  1814 on # 0 of server new_8xlarge RUNNING
+t:     475514 job  1814 on # 0 of server new_8xlarge COMPLETED
+t:     475514 job  1816 on # 0 of server new_8xlarge RUNNING
+t:     475590 job  1816 on # 0 of server new_8xlarge COMPLETED
+t:     475590 job  1817 on # 0 of server new_8xlarge RUNNING
+t:     476422 job  1817 on # 0 of server new_8xlarge COMPLETED
+t:     476422 job  1818 on # 0 of server new_8xlarge RUNNING
+t:     476553 job  1818 on # 0 of server new_8xlarge COMPLETED
+t:     476553 job  1820 on # 0 of server new_8xlarge RUNNING
+t:     476576 job  1820 on # 0 of server new_8xlarge COMPLETED
+t:     476576 job  1821 on # 0 of server new_8xlarge RUNNING
+t:     476646 job  1821 on # 0 of server new_8xlarge COMPLETED
+t:     476646 job  1827 on # 0 of server new_8xlarge RUNNING
+t:     476692 job  1827 on # 0 of server new_8xlarge COMPLETED
+t:     476692 job  1829 on # 0 of server new_8xlarge RUNNING
+t:     476731 job  1829 on # 0 of server new_8xlarge COMPLETED
+t:     476731 job  1831 on # 0 of server new_8xlarge RUNNING
+t:     476745 job  1831 on # 0 of server new_8xlarge COMPLETED
+t:     476745 job  1833 on # 0 of server new_8xlarge RUNNING
+t:     476851 job  1833 on # 0 of server new_8xlarge COMPLETED
+t:     476851 job  1835 on # 0 of server new_8xlarge RUNNING
+t:     477008 job  1835 on # 0 of server new_8xlarge COMPLETED
+t:     477008 job  1836 on # 0 of server new_8xlarge RUNNING
+t:     477444 job  1836 on # 0 of server new_8xlarge COMPLETED
+t:     477444 job  1838 on # 0 of server new_8xlarge RUNNING
+t:     477467 job  1838 on # 0 of server new_8xlarge COMPLETED
+t:     477467 job  1839 on # 0 of server new_8xlarge RUNNING
+t:     485288 job  1839 on # 0 of server new_8xlarge COMPLETED
+t:     485288 job  1840 on # 0 of server new_8xlarge RUNNING
+t:     485298 job  1840 on # 0 of server new_8xlarge COMPLETED
+t:     485298 job  1841 on # 0 of server new_8xlarge RUNNING
+t:     485326 job  1841 on # 0 of server new_8xlarge COMPLETED
+t:     485326 job  1843 on # 0 of server new_8xlarge RUNNING
+t:     485354 job  1843 on # 0 of server new_8xlarge COMPLETED
+t:     485354 job  1845 on # 0 of server new_8xlarge RUNNING
+t:     485379 job  1845 on # 0 of server new_8xlarge COMPLETED
+t:     485379 job  1846 on # 0 of server new_8xlarge RUNNING
+t:     485389 job  1846 on # 0 of server new_8xlarge COMPLETED
+t:     485389 job  1847 on # 0 of server new_8xlarge RUNNING
+t:     525669 job  1847 on # 0 of server new_8xlarge COMPLETED
+t:     525669 job  1850 on # 0 of server new_8xlarge RUNNING
+t:     525684 job  1850 on # 0 of server new_8xlarge COMPLETED
+t:     525684 job  1851 on # 0 of server new_8xlarge RUNNING
+t:     549038 job  1851 on # 0 of server new_8xlarge COMPLETED
+t:     549038 job  1852 on # 0 of server new_8xlarge RUNNING
+t:     549149 job  1852 on # 0 of server new_8xlarge COMPLETED
+t:     549149 job  1853 on # 0 of server new_8xlarge RUNNING
+t:     549171 job  1853 on # 0 of server new_8xlarge COMPLETED
+t:     549171 job  1856 on # 0 of server new_8xlarge RUNNING
+t:     549504 job  1856 on # 0 of server new_8xlarge COMPLETED
+t:     549504 job  1857 on # 0 of server new_8xlarge RUNNING
+t:     549527 job  1857 on # 0 of server new_8xlarge COMPLETED
+t:     549527 job  1859 on # 0 of server new_8xlarge RUNNING
+t:     549627 job  1859 on # 0 of server new_8xlarge COMPLETED
+t:     549627 job  1860 on # 0 of server new_8xlarge RUNNING
+t:     549632 job  1860 on # 0 of server new_8xlarge COMPLETED
+t:     549632 job  1861 on # 0 of server new_8xlarge RUNNING
+t:     549657 job  1861 on # 0 of server new_8xlarge COMPLETED
+t:     549657 job  1862 on # 0 of server new_8xlarge RUNNING
+t:     592229 job  1862 on # 0 of server new_8xlarge COMPLETED
+t:     592229 job  1863 on # 0 of server new_8xlarge RUNNING
+t:     592530 job  1863 on # 0 of server new_8xlarge COMPLETED
+t:     592530 job  1867 on # 0 of server new_8xlarge RUNNING
+t:     592535 job  1867 on # 0 of server new_8xlarge COMPLETED
+t:     592535 job  1869 on # 0 of server new_8xlarge RUNNING
+t:     592855 job  1869 on # 0 of server new_8xlarge COMPLETED
+t:     592855 job  1870 on # 0 of server new_8xlarge RUNNING
+t:     593386 job  1870 on # 0 of server new_8xlarge COMPLETED
+t:     593386 job  1871 on # 0 of server new_8xlarge RUNNING
+t:     594091 job  1871 on # 0 of server new_8xlarge COMPLETED
+t:     594091 job  1872 on # 0 of server new_8xlarge RUNNING
+t:     594497 job  1872 on # 0 of server new_8xlarge COMPLETED
+t:     594497 job  1874 on # 0 of server new_8xlarge RUNNING
+t:     594898 job  1874 on # 0 of server new_8xlarge COMPLETED
+t:     594898 job  1875 on # 0 of server new_8xlarge RUNNING
+t:     595065 job  1875 on # 0 of server new_8xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 2xlarge servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 xlarge servers used with a utilisation of 0.00 at the cost of $0.00
+# 4 4xlarge servers used with a utilisation of 8.26 at the cost of $1439.34
+# 0 large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 5 8xlarge servers used with a utilisation of 41.66 at the cost of $3857.80
+# 0 new_large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_2xlarge servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_xlarge servers used with a utilisation of 0.00 at the cost of $0.00
+# 4 new_4xlarge servers used with a utilisation of 6.06 at the cost of $1603.07
+# 0 new_large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_small servers used with a utilisation of 0.00 at the cost of $0.00
+# 5 new_8xlarge servers used with a utilisation of 37.85 at the cost of $13219.17
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 595065
+# total #servers used: 18, avg utilisation: 25.26 and total cost: $20119.38
+# avg waiting time: 36971, avg exec time: 1323 and avg turnaround time: 38294
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>My Client<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+t:     194939 job  1743 on # 1 of server new_4xlarge COMPLETED
+t:     194970 job  1999 on # 5 of server tiny COMPLETED
+t:     195200 job  1450 on # 0 of server 8xlarge COMPLETED
+t:     195200 job  1452 on # 0 of server 8xlarge RUNNING
+t:     196015 job  1452 on # 0 of server 8xlarge COMPLETED
+t:     196015 job  1453 on # 0 of server 8xlarge RUNNING
+t:     196836 job  1961 on # 0 of server medium COMPLETED
+t:     198438 job  1912 on # 0 of server new_medium COMPLETED
+t:     199382 job  1968 on # 4 of server medium COMPLETED
+t:     199756 job  1881 on # 1 of server new_medium COMPLETED
+t:     200242 job  1702 on # 1 of server new_8xlarge COMPLETED
+t:     201277 job  1894 on # 0 of server xlarge COMPLETED
+t:     203689 job  1687 on # 1 of server 2xlarge COMPLETED
+t:     204416 job  1716 on # 4 of server new_8xlarge COMPLETED
+t:     209760 job  1453 on # 0 of server 8xlarge COMPLETED
+t:     209760 job  1461 on # 0 of server 8xlarge RUNNING
+t:     210354 job  1461 on # 0 of server 8xlarge COMPLETED
+t:     210354 job  1464 on # 0 of server 8xlarge RUNNING
+t:     210407 job  1464 on # 0 of server 8xlarge COMPLETED
+t:     210407 job  1471 on # 0 of server 8xlarge RUNNING
+t:     210420 job  1471 on # 0 of server 8xlarge COMPLETED
+t:     210420 job  1481 on # 0 of server 8xlarge RUNNING
+t:     210541 job  1481 on # 0 of server 8xlarge COMPLETED
+t:     210541 job  1483 on # 0 of server 8xlarge RUNNING
+t:     210554 job  1483 on # 0 of server 8xlarge COMPLETED
+t:     210554 job  1485 on # 0 of server 8xlarge RUNNING
+t:     210563 job  1485 on # 0 of server 8xlarge COMPLETED
+t:     210563 job  1498 on # 0 of server 8xlarge RUNNING
+t:     210706 job  1498 on # 0 of server 8xlarge COMPLETED
+t:     210706 job  1801 on # 0 of server 8xlarge RUNNING
+t:     210814 job  1801 on # 0 of server 8xlarge COMPLETED
+t:     210814 job  1806 on # 0 of server 8xlarge RUNNING
+t:     210933 job  1806 on # 0 of server 8xlarge COMPLETED
+t:     210933 job  1807 on # 0 of server 8xlarge RUNNING
+t:     210956 job  1807 on # 0 of server 8xlarge COMPLETED
+t:     210956 job  1808 on # 0 of server 8xlarge RUNNING
+t:     211121 job  1808 on # 0 of server 8xlarge COMPLETED
+t:     211121 job  1813 on # 0 of server 8xlarge RUNNING
+t:     211128 job  1813 on # 0 of server 8xlarge COMPLETED
+t:     211128 job  1816 on # 0 of server 8xlarge RUNNING
+t:     211204 job  1816 on # 0 of server 8xlarge COMPLETED
+t:     211204 job  1817 on # 0 of server 8xlarge RUNNING
+t:     211793 job  1798 on # 3 of server 8xlarge COMPLETED
+t:     212036 job  1817 on # 0 of server 8xlarge COMPLETED
+t:     212036 job  1821 on # 0 of server 8xlarge RUNNING
+t:     212106 job  1821 on # 0 of server 8xlarge COMPLETED
+t:     212106 job  1824 on # 0 of server 8xlarge RUNNING
+t:     212132 job  1824 on # 0 of server 8xlarge COMPLETED
+t:     212132 job  1827 on # 0 of server 8xlarge RUNNING
+t:     212178 job  1827 on # 0 of server 8xlarge COMPLETED
+t:     212178 job  1829 on # 0 of server 8xlarge RUNNING
+t:     212217 job  1829 on # 0 of server 8xlarge COMPLETED
+t:     212217 job  1831 on # 0 of server 8xlarge RUNNING
+t:     212231 job  1831 on # 0 of server 8xlarge COMPLETED
+t:     212231 job  1845 on # 0 of server 8xlarge RUNNING
+t:     212256 job  1845 on # 0 of server 8xlarge COMPLETED
+t:     212256 job  1853 on # 0 of server 8xlarge RUNNING
+t:     212278 job  1853 on # 0 of server 8xlarge COMPLETED
+t:     212278 job  1859 on # 0 of server 8xlarge RUNNING
+t:     212378 job  1859 on # 0 of server 8xlarge COMPLETED
+t:     212378 job  1860 on # 0 of server 8xlarge RUNNING
+t:     212383 job  1860 on # 0 of server 8xlarge COMPLETED
+t:     212383 job  1861 on # 0 of server 8xlarge RUNNING
+t:     212408 job  1861 on # 0 of server 8xlarge COMPLETED
+t:     212408 job  1862 on # 0 of server 8xlarge RUNNING
+t:     212874 job  1844 on # 3 of server new_xlarge COMPLETED
+t:     214477 job  1963 on # 3 of server new_medium COMPLETED
+t:     214926 job  1962 on # 4 of server tiny COMPLETED
+t:     222552 job  1805 on # 0 of server new_8xlarge COMPLETED
+t:     222552 job  1811 on # 0 of server new_8xlarge RUNNING
+t:     222560 job  1811 on # 0 of server new_8xlarge COMPLETED
+t:     222560 job  1814 on # 0 of server new_8xlarge RUNNING
+t:     222574 job  1814 on # 0 of server new_8xlarge COMPLETED
+t:     222574 job  1818 on # 0 of server new_8xlarge RUNNING
+t:     222705 job  1818 on # 0 of server new_8xlarge COMPLETED
+t:     222705 job  1820 on # 0 of server new_8xlarge RUNNING
+t:     222728 job  1820 on # 0 of server new_8xlarge COMPLETED
+t:     222728 job  1833 on # 0 of server new_8xlarge RUNNING
+t:     222834 job  1833 on # 0 of server new_8xlarge COMPLETED
+t:     222834 job  1835 on # 0 of server new_8xlarge RUNNING
+t:     222991 job  1835 on # 0 of server new_8xlarge COMPLETED
+t:     222991 job  1836 on # 0 of server new_8xlarge RUNNING
+t:     223427 job  1836 on # 0 of server new_8xlarge COMPLETED
+t:     223427 job  1838 on # 0 of server new_8xlarge RUNNING
+t:     223450 job  1838 on # 0 of server new_8xlarge COMPLETED
+t:     223450 job  1839 on # 0 of server new_8xlarge RUNNING
+t:     225796 job  1987 on # 3 of server new_tiny COMPLETED
+t:     231271 job  1839 on # 0 of server new_8xlarge COMPLETED
+t:     231271 job  1840 on # 0 of server new_8xlarge RUNNING
+t:     231281 job  1840 on # 0 of server new_8xlarge COMPLETED
+t:     231281 job  1847 on # 0 of server new_8xlarge RUNNING
+t:     254980 job  1862 on # 0 of server 8xlarge COMPLETED
+t:     254980 job  1870 on # 0 of server 8xlarge RUNNING
+t:     255511 job  1870 on # 0 of server 8xlarge COMPLETED
+t:     255511 job  1872 on # 0 of server 8xlarge RUNNING
+t:     255917 job  1872 on # 0 of server 8xlarge COMPLETED
+t:     255917 job  1874 on # 0 of server 8xlarge RUNNING
+t:     256318 job  1874 on # 0 of server 8xlarge COMPLETED
+t:     256318 job  1875 on # 0 of server 8xlarge RUNNING
+t:     256485 job  1875 on # 0 of server 8xlarge COMPLETED
+t:     271561 job  1847 on # 0 of server new_8xlarge COMPLETED
+t:     271561 job  1851 on # 0 of server new_8xlarge RUNNING
+t:     294915 job  1851 on # 0 of server new_8xlarge COMPLETED
+t:     294915 job  1856 on # 0 of server new_8xlarge RUNNING
+t:     295248 job  1856 on # 0 of server new_8xlarge COMPLETED
+t:     295248 job  1857 on # 0 of server new_8xlarge RUNNING
+t:     295271 job  1857 on # 0 of server new_8xlarge COMPLETED
+t:     295271 job  1867 on # 0 of server new_8xlarge RUNNING
+t:     295276 job  1867 on # 0 of server new_8xlarge COMPLETED
+t:     295276 job  1871 on # 0 of server new_8xlarge RUNNING
+t:     295981 job  1871 on # 0 of server new_8xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 large_melbourne servers used with a utilisation of 100.00 at the cost of $0.04
+# 0 large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 5 tiny servers used with a utilisation of 13.24 at the cost of $24.66
+# 0 large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bali servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 2xlarge servers used with a utilisation of 19.34 at the cost of $381.59
+# 0 large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_brussel servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 large_toronto servers used with a utilisation of 13.94 at the cost of $47.62
+# 2 large_rio servers used with a utilisation of 6.66 at the cost of $61.07
+# 0 large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 medium servers used with a utilisation of 31.23 at the cost of $38.43
+# 4 xlarge servers used with a utilisation of 23.87 at the cost of $381.13
+# 4 4xlarge servers used with a utilisation of 12.09 at the cost of $1524.76
+# 0 large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 3 small servers used with a utilisation of 7.14 at the cost of $32.40
+# 5 8xlarge servers used with a utilisation of 35.79 at the cost of $4552.86
+# 0 new_large_sydney servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_melbourne servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_brisbane servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_canberra servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_adelaide servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_perth servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_darwin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hobart servers used with a utilisation of 0.00 at the cost of $0.00
+# 8 new_tiny servers used with a utilisation of 5.86 at the cost of $77.78
+# 0 new_large_jakarta servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 new_large_bali servers used with a utilisation of 2.67 at the cost of $57.55
+# 0 new_large_seoul servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_busan servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_beijing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_shanghai servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_nanjing servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_singapore servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_2xlarge servers used with a utilisation of 7.69 at the cost of $569.06
+# 0 new_large_berlin servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_london servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_auckland servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_bangkok servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_hanoi servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_large_brussel servers used with a utilisation of 7.55 at the cost of $133.76
+# 0 new_large_newyork servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_virginia servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_toronto servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_rio servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_moscow servers used with a utilisation of 0.00 at the cost of $0.00
+# 5 new_medium servers used with a utilisation of 25.48 at the cost of $191.25
+# 4 new_xlarge servers used with a utilisation of 15.05 at the cost of $568.54
+# 4 new_4xlarge servers used with a utilisation of 11.41 at the cost of $1821.93
+# 0 new_large_rome servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_madrid servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 new_large_athens servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 new_small servers used with a utilisation of 7.08 at the cost of $37.12
+# 5 new_8xlarge servers used with a utilisation of 35.81 at the cost of $6571.95
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 295981
+# total #servers used: 62, avg utilisation: 18.47 and total cost: $17073.48
+# avg waiting time: 8009, avg exec time: 1295 and avg turnaround time: 9304

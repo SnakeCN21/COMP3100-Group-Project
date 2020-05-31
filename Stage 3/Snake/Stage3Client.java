@@ -20,7 +20,6 @@ public class Stage3Client {
     private static String disk = "";
 
     private static ArrayList<HashMap<String, String>> serverList = new ArrayList<HashMap<String, String>>();
-    private static HashMap<String, ArrayList<HashMap<String, String>>> serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
     private static HashMap<String, String> schdServer = new HashMap<String, String>();
 
     private static HashMap<String, HashMap<String, String>> championServerMap = new HashMap<String, HashMap<String, String>>();
@@ -92,7 +91,6 @@ public class Stage3Client {
         System.out.println(Constant.SENT + Constant.SPLIT + msg);
 
         serverList = new ArrayList<HashMap<String, String>>();
-        serverListByType = new HashMap<String, ArrayList<HashMap<String, String>>>();
 
         while (!msg.equals(Constant.DOT)) {
             client.sendMsg(Constant.OK);
@@ -205,7 +203,7 @@ public class Stage3Client {
         }
     }
 
-    // Reset all the variables that will be used in order to find the best-fitness server.
+    // Reset all the variables that will be used in order to find the champion server.
     private static void restoreChampionParameter() {
         championServerMap = new HashMap<String, HashMap<String, String>>();
 
